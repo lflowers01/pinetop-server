@@ -1,0 +1,18 @@
+
+
+#Config
+variables:
+  {serverPrefix} = "&7[&c&lServer&r&7] &f-"
+
+on join:
+  
+  loop all players:
+    send loop-value
+
+command sus:
+  trigger:
+    clear {playerList::*}
+    loop players:
+      add loop-player to {playerList::*}
+    loop {playerList::*}:
+      send {playerList::%loop-index%}
