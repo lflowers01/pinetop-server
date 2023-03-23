@@ -33,10 +33,10 @@ settings:
     attackDamage:
       max: 2048.0
 messages:
-  restart: Server is restarting
-  whitelist: You are not whitelisted on this server!
-  unknown-command: Unknown command. Type "/help" for help.
-  server-full: The server is full!
+  restart: Server is restarting, we'll be back soon!
+  whitelist: The server is under maintenance!
+  unknown-command: Unknown command!
+  server-full: The server is full, please try again later!
   outdated-client: Outdated client! Please use {0}
   outdated-server: Outdated server! I'm still on {0}
 world-settings:
@@ -148,6 +148,10 @@ world-settings:
       tile: 50
       entity: 50
     max-tnt-per-tick: 100
+    verbose: false
+  worldeditregentempworld:
+    verbose: false
+  faweregentempworld:
     verbose: false
 commands:
   silent-commandblock-console: false

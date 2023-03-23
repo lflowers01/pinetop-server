@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1679450393583
+  login: 1679430096881
+money: '0'
+last-account-name: zenith421
+logoutlocation:
+  world: b3442166-e643-49d0-b9be-177d344d50e9
+  world-name: world
+  x: 217.69999998807907
+  y: -46.799999952316284
+  z: -135.37503155743372
+  yaw: -99.75070190429688
+  pitch: 12.599983215332031
+lastlocation:
+  world: 81631579-45fd-421c-8eb4-a9e7fab72ca5
+  world-name: survival
+  x: -832.70041807124
+  y: 63.0
+  z: -824.5997882674069
+  yaw: -98.80543518066406
+  pitch: -12.599832534790039

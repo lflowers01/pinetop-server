@@ -1,0 +1,30 @@
+
+
+
+# PLAYER COMMANDS
+
+command hub:
+  trigger:
+    set {_loc} to position 206.5, -59, -140.5 in world "world"
+    set yaw of {_loc} to 90
+    teleport player to {_loc}
+
+command survival:
+  trigger:
+    loop all players:
+      if {playerList::*} contains loop-player:
+        make player run command "/mvtp survival" as op
+      else:
+        make player run command "/rtp world survival" as op
+        add loop-player to {playerList::*}
+
+
+# MOD COMMANDS
+command gmc:
+  trigger:
+    set gamemode of player to creative
+
+command gms:
+  trigger:
+    set gamemode of player to survival
+

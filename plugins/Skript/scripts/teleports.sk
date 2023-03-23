@@ -1,18 +1,20 @@
 
-
-#Config
-variables:
-  {serverPrefix} = "&7[&c&lServer&r&7] &f-"
-
 on join:
-  
   loop all players:
-    send loop-value
+    if {playerList::*} contains loop-player:
+      # rejoining player
+      set join message to "&e%loop-player% &7joined the game."
+      if loop-player is in world "world":
+        set {_loc} to position 206.5, -59, -140.5 in world "world"
+        set yaw of {_loc} to 90
+        teleport player to {_loc}
+        teleport loop-player to {_loc}
 
-command sus:
-  trigger:
-    clear {playerList::*}
-    loop players:
-      add loop-player to {playerList::*}
-    loop {playerList::*}:
-      send {playerList::%loop-index%}
+    else:
+      # new player
+      send player title "&l&eWelcome" with subtitle "&7to &aPine&2Top" for 7 seconds
+      add loop-player to {playerList::*} 
+      teleport loop-player to position 331.5, -59, 3.5 in world "world"
+      set join message to "&7New player, &e%loop-player% &7joined for the first time!"
+      launch ball large coloured red, purple and white fading to light green and black at loop-player's location with duration 1
+      play sound "entity.firework_rocket.launch" at volume 1 to player

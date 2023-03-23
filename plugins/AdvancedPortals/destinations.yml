@@ -1,0 +1,15 @@
+#  ExampleDestination:
+#    world: it will be the world name
+#    pos:
+#      X:
+#      Y:
+#      Z:
+
+hubwait:
+  world: world
+  pos:
+    X: 131.55914632904455
+    Y: -59.0
+    Z: -80.38719311648937
+    pitch: 59.25016
+    yaw: -5.6995096
