@@ -9,6 +9,10 @@ npc:
       flyable: true
       nameplate-visible: 'false'
       minecraft-ai: false
+      ambient-sound: ''
+      death-sound: ''
+      hurt-sound: ''
+      silent-sounds: true
     name: Amy
     uuid: 871c6278-8c85-40fd-8beb-f2aabb736ea5
     traits:
@@ -25,12 +29,12 @@ npc:
           cycle: false
         provider: linear
       location:
-        bodyYaw: 131.93982
+        bodyYaw: 111.98871
         world: world
         x: '214.2835'
         y: '-58.0'
         z: '-133.4915'
-        yaw: '120.6158'
+        yaw: '105.7344'
         pitch: '0.0'
       skintrait:
         fetchDefaultSkin: true
@@ -62,7 +66,7 @@ npc:
           '0': 0.0
           '1': 360.0
       spawned: true
-    traitnames: inventory,lookclose,owner,waypoints,age,spawned,location,skintrait,type,equipment,mounttrait,gravity,rotationtrait,scoreboardtrait,allaytrait
+    traitnames: mounttrait,inventory,type,age,allaytrait,equipment,scoreboardtrait,spawned,lookclose,location,owner,waypoints,skintrait,gravity,rotationtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -71,6 +75,7 @@ npc:
     metadata:
       cached-skin-uuid: ef4afcaf-d8ca-471a-aeb9-c33feae60f29
       cached-skin-uuid-name: ronny
+      minecraft-ai: true
     name: Ronny
     uuid: ab330678-0c12-47fe-9972-045992e19787
     traits:
@@ -105,12 +110,12 @@ npc:
           yrange: 3
         provider: wander
       location:
-        bodyYaw: 271.4308
+        bodyYaw: 141.76697
         world: world
-        x: '190.3'
-        y: '-56.5625'
-        z: '-71.0158'
-        yaw: '271.4308'
+        x: '154.4519'
+        y: '-60.0'
+        z: '-140.4265'
+        yaw: '46.6597'
         pitch: '0.0'
       skintrait:
         fetchDefaultSkin: true
@@ -118,7 +123,7 @@ npc:
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY3ODgzNzkxMzk5NSwKICAicHJvZmlsZUlkIiA6ICJlZjRhZmNhZmQ4Y2E0NzFhYWViOWMzM2ZlYWU2MGYyOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJSb25ueSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82ZmY1NTBiM2NhNTBjYmYzNzM1OTY0YWY2ZTBiMDMwZmUyN2M4OGQ3MzNjNWIyN2FiYTdiN2NhNzBiOTNlYzE1IgogICAgfQogIH0KfQ==
         updateSkins: false
       spawned: true
-    traitnames: location,inventory,skintrait,lookclose,type,mounttrait,waypoints,owner,rotationtrait,age,scoreboardtrait,spawned
+    traitnames: mounttrait,inventory,scoreboardtrait,type,spawned,lookclose,location,owner,waypoints,age,skintrait,rotationtrait
     navigator:
       speedmodifier: '0.699999988079071'
       avoidwater: false
@@ -154,13 +159,13 @@ npc:
           '0': 0.0
           '1': 360.0
       location:
-        bodyYaw: 50.30748
+        bodyYaw: 27.089867
         world: world
         x: '266.666'
         y: '-60.0'
         z: '-146.1882'
-        yaw: '50.3075'
-        pitch: '-27.9755'
+        yaw: '27.0899'
+        pitch: '-76.0331'
       inventory:
         '0':
           type_key: fishing_rod
@@ -182,7 +187,7 @@ npc:
           type_key: cod
           amount: 1
       spawned: true
-    traitnames: location,inventory,skintrait,lookclose,type,equipment,mounttrait,owner,rotationtrait,age,scoreboardtrait,spawned
+    traitnames: mounttrait,inventory,scoreboardtrait,type,lookclose,spawned,location,owner,skintrait,age,equipment,rotationtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -218,13 +223,13 @@ npc:
           '0': 0.0
           '1': 360.0
       location:
-        bodyYaw: 54.92398
+        bodyYaw: -39.5247
         world: world
         x: '203.376'
         y: '-60.0'
         z: '-194.5222'
-        yaw: '54.924'
-        pitch: '-57.3672'
+        yaw: '-39.5247'
+        pitch: '-10.5387'
       inventory:
         '0':
           type_key: diamond_sword
@@ -258,7 +263,7 @@ npc:
           type_key: rabbit_hide
           amount: 1
       spawned: true
-    traitnames: location,inventory,lookclose,skintrait,type,equipment,mounttrait,owner,age,rotationtrait,scoreboardtrait,spawned
+    traitnames: mounttrait,inventory,scoreboardtrait,type,lookclose,spawned,location,owner,age,skintrait,equipment,rotationtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -277,13 +282,13 @@ npc:
         age: 0
         locked: true
       location:
-        bodyYaw: -13.683701
+        bodyYaw: 119.64566
         world: world
         x: '208.5902'
         y: '-57.0'
         z: '-90.7787'
-        yaw: '-13.6837'
-        pitch: '-29.8793'
+        yaw: '139.6457'
+        pitch: '-74.5643'
       skintrait:
         fetchDefaultSkin: true
         signature: hTz/i6QM3T9grn+AOfHf4eGOs6kyXVya0aRasYCJnNhU46SFcGaujp0bblKKGloyw8+2sIaL8DvNXEwbW/RuPhl1ZhNu48CfA03xGg9AYyqM4qZd9pSDurig/bd7r54UFA8gPX47xiBIoNTyNYMBiTh3Y/jNJLFifboPdunW2ohtZ1AnrrGFV4Yed1Iz9QquIgcqIxEukbmYYJHccPm7ElsSpprVenruK6L2UAcZkzV44Qu+FHuOvHR+5//rM9Gg8n8SW+qCkMjMVO4fdvtHrz7tOYasEbq5DdZpZH7W7cic2P6UcZK5XXX3OSptRNxXFpxCEp8nDfqzmLlNTWsi/3sOBnbEm4AatAJrKO6NFRgEyF3CICynahpp0tjTWxxNPKmLlBpxP96eX748g19tzgWizhZEBC7Uwodia02HvnRt1F8a9NB+bLElEruNx+Mvt17GnXMyQfC7x95rd+GORePnlkxoHT5y2boDRpvIk7sTpUA1vjhMWf8K+Qtyww4Em2VcuQm1BHJ5CshkKxA+ucsUp4A8yT5zvtawcCZfmKkHu96Y+upZJjvBJHCBNyRY43mA+BMvTn/l/gWvvpzKU+/xC6Sk2H8zGgYLnlYitE/B94G02TsYXeaonNGxZdgkRSeO0MLSntnVE9SmZkKr4aAIXYO1Req+XMOLytrNjgY=
@@ -323,7 +328,7 @@ npc:
           type_key: wheat
           amount: 1
       spawned: true
-    traitnames: inventory,lookclose,poses,owner,age,spawned,location,skintrait,type,equipment,mounttrait,rotationtrait,scoreboardtrait
+    traitnames: mounttrait,inventory,type,age,equipment,scoreboardtrait,spawned,lookclose,location,owner,skintrait,poses,rotationtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -359,13 +364,13 @@ npc:
           '0': 0.0
           '1': 360.0
       location:
-        bodyYaw: 17.286362
+        bodyYaw: -6.6466904
         world: world
         x: '188.5235'
         y: '-59.9375'
         z: '-149.7148'
-        yaw: '17.2864'
-        pitch: '-16.9191'
+        yaw: '-6.6467'
+        pitch: '-43.0893'
       inventory:
         '0':
           type_key: crossbow
@@ -387,7 +392,7 @@ npc:
           type_key: arrow
           amount: 1
       spawned: true
-    traitnames: location,inventory,lookclose,skintrait,type,equipment,mounttrait,owner,age,rotationtrait,scoreboardtrait,spawned
+    traitnames: mounttrait,inventory,scoreboardtrait,type,lookclose,spawned,location,owner,age,skintrait,equipment,rotationtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -405,12 +410,12 @@ npc:
         age: 0
         locked: true
       location:
-        bodyYaw: 70.28197
+        bodyYaw: 130.64014
         world: world
         x: '216.3779'
         y: '-60.0'
         z: '-155.4915'
-        yaw: '70.282'
+        yaw: '150.6401'
         pitch: '0.0'
       profession: LIBRARIAN
       skintrait:
@@ -444,7 +449,7 @@ npc:
           '0': 0.0
           '1': 360.0
       spawned: true
-    traitnames: inventory,lookclose,owner,villagertrait,age,spawned,location,skintrait,type,equipment,mounttrait,rotationtrait,scoreboardtrait,profession
+    traitnames: mounttrait,villagertrait,inventory,type,profession,age,equipment,scoreboardtrait,spawned,lookclose,location,owner,skintrait,rotationtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -483,20 +488,20 @@ npc:
         playingDead: false
         variant: CYAN
       location:
-        bodyYaw: 134.88792
+        bodyYaw: -93.79748
         world: world
         x: '192.5'
         y: '-59.0'
         z: '-136.5'
-        yaw: '154.8879'
-        pitch: '-43.6999'
+        yaw: '-93.7975'
+        pitch: '0.0'
       skintrait:
         fetchDefaultSkin: true
         signature: mNwLYw00x+3pVbZu3Fgwfm64JibMdC/EiRUuu00ku23ATbKXbQrhuJ1nmfQpeB+F0g19VzXrpXwFCopCWAfvBLDn6fxkUcoQy8KWLIAuD9K6mmgExBl6AJrTi7mujnTV3nj4AgEuQ/pa9odzauc7YX2uO8ulsLSABL97t0ZkqQu2a9kOjxJmSF5uVa36ckpiGGguiqkwEb++VVc0bUnr464BywSzWRifTg4sM24Jec730k4Dn5R0GtIayyLhDvNzwT04x4+Gk1Af1HfiAz2eYP6KyffykwFuEFo+Uk/QSJMI3jopiWD4uTQXJhiV+Ft/H2yYoLJ1yoigyLXWfHMpDuCf+5GbRIoCsMw+iHymWvNNctJ4tOc3bued08qKESdsmxUnjQ3q6o63ql8mw3QbWOMsaUAhN7TmPltlTLTDgRVY0aU3nEy6+BSYaDMvO/dRcXG2nzxb1BW9+dtfWgDaueFs4lBwqficowbcCjMOiiMwjLD0Hy0armdFabDaQILcG4u7bwdt7kkog5MVqQPb5pauPCs9gOBeB4i7AMjEtCLYHn0T5Q3WpYWJYCqQ2QvFrIZdg1gxP+7pG0ktwz6w6qRXegd0y0ycgzSl7UyHaisuSZmSb90m+U5z2nFph144H+HIc0AsHynkHP8VCYiHmqUT0wJOka+RM7L//JiTykw=
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY3ODgzNjcxMTA4NCwKICAicHJvZmlsZUlkIiA6ICIxZTFkOTA2MTFhYTM0MGVlOThlYzg0YzZiOTUyZjRlNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJKZXJvbWUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWJkMjJiZTM3OTJhOTA3NDkxMTM2NGM1MmU5NGVmYjNjOTJkNzUyZDRjODY1NzBmYmQyNzk1NzFlYWFhMjBhZSIKICAgIH0KICB9Cn0=
         updateSkins: false
       spawned: true
-    traitnames: location,inventory,lookclose,skintrait,type,mounttrait,owner,rotationtrait,age,axolotltrait,scoreboardtrait,spawned
+    traitnames: mounttrait,inventory,scoreboardtrait,type,lookclose,spawned,location,owner,age,skintrait,rotationtrait,axolotltrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false

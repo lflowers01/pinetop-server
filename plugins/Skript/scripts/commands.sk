@@ -4,6 +4,8 @@
 # PLAYER COMMANDS
 
 command hub:
+  aliases: hub, spawn
+  permission: skript.hub
   trigger:
     set {_loc} to position 206.5, -59, -140.5 in world "world"
     set yaw of {_loc} to 90

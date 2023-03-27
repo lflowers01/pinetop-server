@@ -16,23 +16,25 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1679450393583
-  login: 1679430096881
+  logout: 1679892749047
+  login: 1679892107848
+  kits:
+    newbie: 1679886111351
 money: '0'
 last-account-name: zenith421
 logoutlocation:
   world: b3442166-e643-49d0-b9be-177d344d50e9
   world-name: world
-  x: 217.69999998807907
-  y: -46.799999952316284
-  z: -135.37503155743372
-  yaw: -99.75070190429688
-  pitch: 12.599983215332031
+  x: 322.5979956180985
+  y: -60.0
+  z: 29.85732621574277
+  yaw: 110.69393920898438
+  pitch: 28.949995040893555
 lastlocation:
-  world: 81631579-45fd-421c-8eb4-a9e7fab72ca5
-  world-name: survival
-  x: -832.70041807124
-  y: 63.0
-  z: -824.5997882674069
-  yaw: -98.80543518066406
-  pitch: -12.599832534790039
+  world: b3442166-e643-49d0-b9be-177d344d50e9
+  world-name: world
+  x: 331.5
+  y: -59.0
+  z: 4.5
+  yaw: -169.9497833251953
+  pitch: 75.29985046386719

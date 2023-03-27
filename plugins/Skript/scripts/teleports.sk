@@ -12,6 +12,10 @@ on join:
 
     else:
       # new player
+      set {_loc} to position 331.5, -59, 4 in world "world"
+      set yaw of {_loc} to 90
+      teleport player to {_loc}
+      teleport loop-player to {_loc}
       send player title "&l&eWelcome" with subtitle "&7to &aPine&2Top" for 7 seconds
       add loop-player to {playerList::*} 
       teleport loop-player to position 331.5, -59, 3.5 in world "world"
