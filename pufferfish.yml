@@ -38,3 +38,4 @@ flare:
 misc:
   disable-method-profiler: true
   disable-out-of-order-chat: false
+allow-end-crystal-respawn: true

@@ -13,3 +13,11 @@ hubwait:
     Z: -80.38719311648937
     pitch: 59.25016
     yaw: -5.6995096
+hub:
+  world: world
+  pos:
+    X: 206.5
+    Y: -59.0
+    Z: -140.5
+    pitch: 0.0
+    yaw: 90.0

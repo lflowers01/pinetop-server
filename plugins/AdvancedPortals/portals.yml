@@ -30,4 +30,16 @@ hub:
     Z: -143
   portalArgs:
     command:
-      "1": "survival"
+      "1": survival
+start:
+  world: world
+  triggerblock: PINK_STAINED_GLASS_PANE
+  destination: hub
+  pos1:
+    X: 280
+    Y: -58
+    Z: 31
+  pos2:
+    X: 280
+    Y: -60
+    Z: 29

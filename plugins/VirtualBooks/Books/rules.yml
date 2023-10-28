@@ -1,0 +1,7 @@
+command: rules
+permission: custom.help
+Title: rules
+Author: PineTop
+pages:
+  "1":
+    - "rules here"

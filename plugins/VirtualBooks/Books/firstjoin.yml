@@ -1,0 +1,7 @@
+command: firstjoinbook
+permission: firstjoinbook.perm
+Title: FirstJoinBook
+Author: TheBlazingPro
+pages:
+  '1':
+  - 'welcome bla bla blah"

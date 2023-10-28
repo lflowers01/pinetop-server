@@ -1,219 +1,663 @@
-[21:52:43] [ServerMain/WARN]: [oshi.driver.windows.perfmon.PerfmonDisabled] Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
-[21:52:53] [ServerMain/INFO]: Building unoptimized datafixer
-[21:52:56] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[21:53:04] [ServerMain/INFO]: Loaded 7 recipes
-[21:53:05] [Server thread/INFO]: Starting minecraft server version 1.19.3
-[21:53:05] [Server thread/INFO]: Loading properties
-[21:53:06] [Server thread/INFO]: This server is running Pufferfish version git-Pufferfish-61 (MC: 1.19.3) (Implementing API version 1.19.3-R0.1-SNAPSHOT) (Git: 47c34ca on HEAD)
-[21:53:06] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[21:53:06] [Server thread/INFO]: Using 4 threads for Netty based IO
-[21:53:06] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[21:53:06] [Server thread/INFO]: [Pufferfish] Max SIMD vector size on this system is 256 bits (int)
-[21:53:06] [Server thread/INFO]: [Pufferfish] Max SIMD vector size on this system is 256 bits (float)
-[21:53:06] [Server thread/INFO]: [Pufferfish] SIMD operations detected as functional. Will replace some operations with faster versions.
-[21:53:06] [Server thread/INFO]: Default game type: SURVIVAL
-[21:53:06] [Server thread/INFO]: Generating keypair
-[21:53:07] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:53:07] [Server thread/INFO]: Using default channel type
-[21:53:07] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[21:53:07] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[21:53:08] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_19_R2.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[21:53:16] [Server thread/WARN]: Legacy plugin skUtilities v0.9.2 does not specify an api-version.
-[21:53:16] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v4.5.1
-[21:53:16] [Server thread/INFO]: [ViaVersion] ViaVersion 4.5.1 is now loaded, injecting!
-[21:53:17] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
-[21:53:17] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.65
-[21:53:17] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
-[21:53:17] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
-[21:53:17] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
-[21:53:17] [Via-Mappingloader-7/INFO]: [ViaVersion] Loading 1.17 -> 1.18 mappings...
-[21:53:17] [Via-Mappingloader-9/INFO]: [ViaVersion] Loading 1.19 -> 1.19.3 mappings...
-[21:53:17] [Via-Mappingloader-8/INFO]: [ViaVersion] Loading 1.18 -> 1.19 mappings...
-[21:53:17] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
-[21:53:17] [Via-Mappingloader-6/INFO]: [ViaVersion] Loading 1.16.2 -> 1.17 mappings...
-[21:53:17] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
-[21:53:18] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[21:53:18] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.5.3-SNAPSHOT-381;bfd919b
-[21:53:18] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[21:53:20] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@7a03755d]
-[21:53:20] [Server thread/INFO]: [VoidGen] Loading server plugin VoidGen v2.2.1
-[21:53:20] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.7+216b061
-[21:53:20] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.1-b861
-[21:53:20] [Server thread/INFO]: [GriefPrevention] Loading server plugin GriefPrevention v16.18.1
-[21:53:20] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.6.4
-[21:53:20] [Server thread/INFO]: [HolographicDisplays] Loading server plugin HolographicDisplays v3.0.1
-[21:53:20] [Server thread/INFO]: [Citizens] Loading server plugin Citizens v2.0.30-SNAPSHOT (build 2888)
-[21:53:20] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.19.7
-[21:53:20] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v4.5.1
-[21:53:20] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[21:53:20] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.10 -> 1.9.4 mappings...
-[21:53:20] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.11 -> 1.10 mappings...
-[21:53:20] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.12 -> 1.11 mappings...
-[21:53:20] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.13 -> 1.12 mappings...
-[21:53:20] [Via-Mappingloader-5/INFO]: [ViaBackwards] Loading 1.13.2 -> 1.13 mappings...
-[21:53:20] [Via-Mappingloader-5/INFO]: [ViaBackwards] Loading 1.14 -> 1.13.2 mappings...
-[21:53:20] [Via-Mappingloader-8/INFO]: [ViaBackwards] Loading 1.15 -> 1.14 mappings...
-[21:53:20] [Via-Mappingloader-9/INFO]: [ViaBackwards] Loading 1.16 -> 1.15 mappings...
-[21:53:20] [Via-Mappingloader-4/INFO]: [ViaBackwards] Loading 1.16.2 -> 1.16 mappings...
-[21:53:20] [Via-Mappingloader-7/INFO]: [ViaBackwards] Loading 1.17 -> 1.16.2 mappings...
-[21:53:20] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.18 -> 1.17 mappings...
-[21:53:20] [Via-Mappingloader-6/INFO]: [ViaBackwards] Loading 1.19 -> 1.18 mappings...
-[21:53:20] [Via-Mappingloader-3/INFO]: [ViaBackwards] Loading 1.19.3 -> 1.19 mappings...
-[21:53:20] [Server thread/INFO]: [VaultChatFormatter] Loading server plugin VaultChatFormatter v1.1-SNAPSHOT
-[21:53:20] [Server thread/INFO]: [StayPut] Loading server plugin StayPut v2.0.0
-[21:53:20] [Server thread/INFO]: [spark] Loading server plugin spark v1.10.17
-[21:53:20] [Server thread/INFO]: [skUtilities] Loading server plugin skUtilities v0.9.2
-[21:53:20] [Server thread/INFO]: [skRayFall] Loading server plugin skRayFall v1.9.28
-[21:53:20] [Server thread/INFO]: [PL-Hide] Loading server plugin PL-Hide v1.5.21
-[21:53:20] [Server thread/INFO]: [goPaint] Loading server plugin goPaint v3.1.0-63
-[21:53:20] [Server thread/INFO]: [goBrush] Loading server plugin goBrush v3.8.0-57
-[21:53:20] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.3.52
-[21:53:20] [Server thread/INFO]: [BetterRTP] Loading server plugin BetterRTP v3.6.2
-[21:53:20] [Server thread/INFO]: [AdvancedPortals] Loading server plugin AdvancedPortals v0.9.3
-[21:53:20] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[21:53:20] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.65
-[21:53:21] [Server thread/INFO]:         __    
-[21:53:21] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.65
-[21:53:21] [Server thread/INFO]:   |___ |      Running on Bukkit - Pufferfish
-[21:53:21] [Server thread/INFO]: 
-[21:53:21] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[21:53:22] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[21:53:23] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[21:53:23] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[21:53:23] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2681ms)
-[21:53:23] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[21:53:23] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[21:53:23] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[21:53:23] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[21:53:23] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[21:53:23] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.5.3-SNAPSHOT-381;bfd919b
-[21:53:23] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
-[21:53:23] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
-[21:53:23] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[21:53:24] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[21:53:24] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_19_R2.PaperweightFaweAdapter as the Bukkit adapter
-[21:53:26] [Server thread/WARN]: [com.fastasyncworldedit.core.util.UpdateNotification] An update for FastAsyncWorldEdit is available. You are 11 build(s) out of date.
-You are running build 381, the latest version is build 392.
-Update at https://www.spigotmc.org/resources/13932/
-[21:53:26] [Server thread/INFO]: [VoidGen] Enabling VoidGen v2.2.1
-[21:53:26] [Server thread/INFO]: [VoidGen] Using VoidChunkGen: VERSION_UNKNOWN
-[21:53:26] [Server thread/INFO]: Preparing level "world"
-[21:53:26] [Server thread/INFO]: [VoidGen] Generator settings have not been set. Using default values:
-[21:53:26] [Server thread/INFO]: [VoidGen] {"caves":false,"decoration":false,"mobs":false,"structures":false,"noise":false,"surface":false,"bedrock":false}
-[21:53:27] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[21:53:27] [Server thread/INFO]: Time elapsed: 211 ms
-[21:53:27] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[21:53:27] [Server thread/INFO]: Time elapsed: 40 ms
-[21:53:27] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[21:53:27] [Server thread/INFO]: Time elapsed: 26 ms
-[21:53:27] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.5.1
-[21:53:27] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.7+216b061
-[21:53:28] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[21:53:28] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[21:53:28] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
-[21:53:28] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[21:53:28] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[21:53:28] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[21:53:28] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[21:53:28] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
-[21:53:28] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[21:53:28] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[21:53:28] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[21:53:28] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[21:53:28] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
-[21:53:28] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[21:53:28] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[21:53:28] [Server thread/INFO]: [WorldGuard] Loading region data...
-[21:53:28] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
-[21:53:28] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
-[21:53:28] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
-[21:53:28] [Server thread/INFO]: [VoidGen] Generator settings have not been set. Using default values:
-[21:53:28] [Server thread/INFO]: [VoidGen] {"caves":false,"decoration":false,"mobs":false,"structures":false,"noise":false,"surface":false,"bedrock":false}
-[21:53:29] [Server thread/INFO]: Preparing start region for dimension minecraft:survival
-[21:53:29] [Server thread/INFO]: Time elapsed: 14 ms
-[21:53:29] [Server thread/INFO]: [WorldGuard] (survival) TNT ignition is PERMITTED.
-[21:53:29] [Server thread/INFO]: [WorldGuard] (survival) Lighters are PERMITTED.
-[21:53:29] [Server thread/INFO]: [WorldGuard] (survival) Lava fire is PERMITTED.
-[21:53:29] [Server thread/INFO]: [WorldGuard] (survival) Fire spread is UNRESTRICTED.
-[21:53:29] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'survival'
-[21:53:29] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
-[21:53:29] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
-[21:53:29] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.18.1
-[21:53:29] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
-[21:53:29] [Server thread/INFO]: [GriefPrevention] 0 total claims loaded.
-[21:53:30] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
-[21:53:30] [Server thread/INFO]: [GriefPrevention] Successfully hooked into WorldGuard.
-[21:53:30] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
-[21:53:30] [Server thread/INFO]: [GriefPrevention] Boot finished.
-[21:53:30] [Server thread/INFO]: [Skript] Enabling Skript v2.6.4
-[21:53:32] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] You're currently running the latest stable version of Skript.
-[21:53:38] [Server thread/INFO]: [Skript] Loaded 153613 aliases in 7649ms
-[21:53:39] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
-[21:53:39] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v3.0.1
-[21:53:39] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.30-SNAPSHOT (build 2888)
-[21:53:39] [Server thread/INFO]: [Citizens] [STDOUT] [Citizens] Leaked by Chan @ BlackSpigot.com
-[21:53:39] [Server thread/WARN]: Nag author(s): '[fullwall]' of 'Citizens' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
-[21:53:39] [Server thread/INFO]: [Citizens] Loading external libraries
-[21:53:40] [Server thread/INFO]: [Citizens] Loaded economy handling via Vault.
-[21:53:40] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.7
-[21:53:40] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[21:53:41] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[21:53:41] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[21:53:41] [Server thread/INFO]: [Essentials] Loaded 38132 items from items.json.
-[21:53:41] [Server thread/INFO]: [Essentials] Using locale en_US
-[21:53:41] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[21:53:41] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[21:53:41] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[21:53:41] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
-[21:53:41] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.5.1
-[21:53:41] [Server thread/INFO]: [VaultChatFormatter] Enabling VaultChatFormatter v1.1-SNAPSHOT
-[21:53:41] [Server thread/INFO]: [VaultChatFormatter] New Vault Chat implementation registered: LuckPerms
-[21:53:41] [Server thread/INFO]: [StayPut] Enabling StayPut v2.0.0
-[21:53:42] [Server thread/INFO]: Alternate schema??? null
-[21:53:42] [Server thread/INFO]: [spark] Enabling spark v1.10.17
-[21:53:42] [Server thread/INFO]: [spark] Using Paper ServerTickStartEvent for tick monitoring
-[21:53:42] [Server thread/INFO]: [spark] Starting background profiler...
-[21:53:42] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[21:53:42] [Server thread/INFO]: [skUtilities] Enabling skUtilities v0.9.2*
-[21:53:42] [Server thread/INFO]: [skUtilities] v0.9.2: loaded modules (Conversions, Files, Yaml, Urls, Utilities) in 95ms
-[21:53:42] [Server thread/INFO]: [skRayFall] Enabling skRayFall v1.9.28
-[21:53:42] [Server thread/INFO]: [skRayFall] Yay! You are running skRayFall 1.9.28!
-[21:53:42] [Server thread/INFO]: [skRayFall] Nathan and Lewis <3 you.
-[21:53:43] [Server thread/INFO]: [skRayFall] Cooking Bacon...
-[21:53:43] [Server thread/INFO]: [skRayFall] Getting more bacon for the army of citizens...
-[21:53:43] [Server thread/INFO]: [skRayFall] Got bacon for the EffectLib particle ninjas!
-[21:53:43] [Server thread/INFO]: [skRayFall] No Votifier Found! *Checks oven for finished bacon*
-[21:53:43] [Server thread/INFO]: [skRayFall] Bacon holograms found
-[21:53:43] [Server thread/INFO]: [skRayFall] Enabling general 1.8+ bacon!
-[21:53:43] [Server thread/INFO]: [skRayFall] Getting the general 1.9+ bacon!
-[21:53:43] [Server thread/INFO]: [skRayFall] Getting the extra special 1.17+ bacon!
-[21:53:43] [Server thread/INFO]: [skRayFall] Bacon is ready!
-[21:53:43] [Server thread/INFO]: [PL-Hide] Enabling PL-Hide v1.5.21
-[21:53:43] [Server thread/INFO]: [goPaint] Enabling goPaint v3.1.0-63
-[21:53:43] [Server thread/INFO]: [goBrush] Enabling goBrush v3.8.0-57
-[21:53:45] [Server thread/INFO]: [Chunky] Enabling Chunky v1.3.52
-[21:53:45] [Server thread/INFO]: [BetterRTP] Enabling BetterRTP v3.6.2
-[21:53:47] [Server thread/INFO]: [AdvancedPortals] Enabling AdvancedPortals v0.9.3
-[21:53:47] [Server thread/INFO]: [AdvancedPortals] BLOCK_PORTAL_TRAVEL found
-[21:53:47] [Server thread/WARN]: [AdvancedPortals] Proxy features disabled for Advanced Portals as bungee isn't enabled on the server (spigot.yml).If you are using Paper proxies.velocity.enabled (config/paper-global.yml) or settings.velocity-support.enabled (paper.yml) may not be enabled 
-[21:53:47] [Server thread/INFO]: Advanced portals have been successfully enabled!
-[21:53:48] [Server thread/INFO]: Running delayed init tasks
-[21:53:48] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.regions.WorldGuardFeature] Plugin 'WorldGuard' found. Using it now.
-[21:53:48] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.FaweBukkit] Attempting to use plugin 'WorldGuard'
-[21:53:48] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.regions.GriefPreventionFeature] Plugin 'GriefPrevention' found. Using it now.
-[21:53:48] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.FaweBukkit] Attempting to use plugin 'GriefPrevention'
-[21:53:48] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.19.3 (761)
-[21:53:48] [Server thread/INFO]: [Skript] Loading variables...
-[21:53:48] [Server thread/INFO]: [Skript] Loaded 3 variables in 0.2 seconds
-[21:53:48] [Craft Scheduler Thread - 8 - Essentials/INFO]: [Essentials] Fetching version information...
-[21:53:48] [Craft Scheduler Thread - 17 - Vault/INFO]: [Vault] Checking for Updates ... 
-[21:53:48] [Craft Scheduler Thread - 17 - Vault/INFO]: [Vault] No new version available
-[21:53:49] [Server thread/INFO]: [Skript] All scripts loaded without errors.
-[21:53:49] [Server thread/INFO]: [Skript] Loaded 2 scripts with a total of 1 trigger and 4 commands in 0.89 seconds
-[21:53:49] [Server thread/INFO]: [Skript] Finished loading.
-[21:53:49] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[21:53:51] [Server thread/INFO]: [Citizens] Loaded 8 NPCs.
-[21:53:51] [Server thread/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
-[21:53:51] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 4.6.2, you're on: 4.5.1
-[21:53:51] [Server thread/INFO]: Done (45.663s)! For help, type "help"
-[21:53:51] [Server thread/INFO]: Timings Reset
+[17:52:12] [ServerMain/WARN]: [oshi.driver.windows.perfmon.PerfmonDisabled] Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
+[17:52:22] [ServerMain/INFO]: Environment: Environment[accountsHost=https://api.mojang.com, sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[17:52:27] [ServerMain/INFO]: Loaded 7 recipes
+[17:52:28] [Server thread/INFO]: Starting minecraft server version 1.20.2
+[17:52:28] [Server thread/INFO]: Loading properties
+[17:52:28] [Server thread/INFO]: This server is running Pufferfish version git-Pufferfish-29 (MC: 1.20.2) (Implementing API version 1.20.2-R0.1-SNAPSHOT) (Git: 0ba7617 on HEAD)
+[17:52:29] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:52:29] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:52:30] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[17:52:30] [Server thread/INFO]: [Pufferfish] Max SIMD vector size on this system is 256 bits (int)
+[17:52:30] [Server thread/INFO]: [Pufferfish] Max SIMD vector size on this system is 256 bits (float)
+[17:52:30] [Server thread/INFO]: [Pufferfish] SIMD operations detected as functional. Will replace some operations with faster versions.
+[17:52:30] [Server thread/INFO]: Default game type: SURVIVAL
+[17:52:30] [Server thread/INFO]: Generating keypair
+[17:52:30] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:52:30] [Server thread/INFO]: Using default channel type
+[17:52:31] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[17:52:31] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[17:52:31] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_20_R2.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[17:52:36] [Server thread/WARN]: Legacy plugin StayPut v1.1 does not specify an api-version.
+[17:52:36] [Server thread/WARN]: Legacy plugin skUtilities v0.9.2 does not specify an api-version.
+[17:52:36] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v4.8.1
+[17:52:36] [Server thread/INFO]: [ViaVersion] ViaVersion 4.8.1 is now loaded. Registering protocol transformers and injecting...
+[17:52:37] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[17:52:37] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[17:52:37] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[17:52:38] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[17:52:38] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.106
+[17:52:38] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[17:52:38] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.8.2-SNAPSHOT-593;0566bd3
+[17:52:40] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@6ef2900b]
+[17:52:40] [Server thread/INFO]: [VoidGen] Loading server plugin VoidGen v2.2.1
+[17:52:40] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.9+5934e49
+[17:52:40] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.12
+[17:52:40] [Server thread/INFO]: [GriefPrevention] Loading server plugin GriefPrevention v16.18.1
+[17:52:40] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.7.1
+[17:52:40] [Server thread/INFO]: [HolographicDisplays] Loading server plugin HolographicDisplays v3.0.3
+[17:52:40] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.1
+[17:52:40] [Server thread/INFO]: [VirtualBooks] Loading server plugin VirtualBooks v2.7.3
+[17:52:40] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v4.8.1
+[17:52:40] [Server thread/INFO]: [VaultChatFormatter] Loading server plugin VaultChatFormatter v1.1-SNAPSHOT
+[17:52:40] [Server thread/INFO]: [StayPut] Loading server plugin StayPut v1.1
+[17:52:40] [Server thread/INFO]: [spark] Loading server plugin spark v1.10.34
+[17:52:40] [Server thread/INFO]: [skUtilities] Loading server plugin skUtilities v0.9.2
+[17:52:40] [Server thread/INFO]: [skRayFall] Loading server plugin skRayFall v1.9.28
+[17:52:40] [Server thread/INFO]: [PVP Arena] Loading server plugin pvparena v1.15.3
+[17:52:40] [Server thread/INFO]: [PL-Hide] Loading server plugin PL-Hide v1.5.21
+[17:52:40] [Server thread/INFO]: [goPaint] Loading server plugin goPaint v3.1.0-70
+[17:52:40] [Server thread/INFO]: [goBrush] Loading server plugin goBrush v3.8.0-63
+[17:52:40] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.3.92
+[17:52:40] [Server thread/INFO]: [BetterRTP] Loading server plugin BetterRTP v3.6.11
+[17:52:40] [Server thread/INFO]: [AdvancedPortals] Loading server plugin AdvancedPortals v0.9.3
+[17:52:40] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:52:40] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.106
+[17:52:41] [Server thread/INFO]:         __    
+[17:52:41] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.106
+[17:52:41] [Server thread/INFO]:   |___ |      Running on Bukkit - Pufferfish
+[17:52:41] [Server thread/INFO]: 
+[17:52:41] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[17:52:42] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[17:52:42] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[17:52:43] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[17:52:43] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 3013ms)
+[17:52:43] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[17:52:43] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[17:52:43] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[17:52:43] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[17:52:43] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[17:52:43] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.8.2-SNAPSHOT-593;0566bd3
+[17:52:43] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[17:52:43] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[17:52:44] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[17:52:44] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[17:52:44] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_20_R2.PaperweightFaweAdapter as the Bukkit adapter
+[17:52:45] [Server thread/INFO]: [VoidGen] Enabling VoidGen v2.2.1
+[17:52:45] [Server thread/INFO]: [VoidGen] Using VoidChunkGen: VERSION_UNKNOWN
+[17:52:45] [Server thread/INFO]: Preparing level "world"
+[17:52:45] [Server thread/INFO]: [VoidGen] Generator settings have not been set. Using default values:
+[17:52:45] [Server thread/INFO]: [VoidGen] {"caves":false,"decoration":false,"mobs":false,"structures":false,"noise":false,"surface":false,"bedrock":false}
+[17:52:48] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:52:48] [Server thread/INFO]: Time elapsed: 466 ms
+[17:52:48] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[17:52:48] [Server thread/INFO]: Time elapsed: 37 ms
+[17:52:48] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[17:52:48] [Server thread/INFO]: Time elapsed: 34 ms
+[17:52:48] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.8.1
+[17:52:48] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20.2 (764)
+[17:52:49] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.9+5934e49
+[17:52:52] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[17:52:52] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[17:52:52] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[17:52:52] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[17:52:52] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[17:52:52] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[17:52:52] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[17:52:52] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[17:52:52] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[17:52:52] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[17:52:52] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[17:52:52] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[17:52:52] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[17:52:52] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[17:52:52] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[17:52:52] [Server thread/INFO]: [WorldGuard] Loading region data...
+[17:52:53] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.12
+[17:52:53] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.12" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[17:52:53] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[17:52:53] [Server thread/INFO]: [VoidGen] Generator settings have not been set. Using default values:
+[17:52:53] [Server thread/INFO]: [VoidGen] {"caves":false,"decoration":false,"mobs":false,"structures":false,"noise":false,"surface":false,"bedrock":false}
+[17:52:53] [Server thread/INFO]: Preparing start region for dimension minecraft:survival
+[17:52:53] [Server thread/INFO]: Time elapsed: 25 ms
+[17:52:53] [Server thread/INFO]: [WorldGuard] (survival) TNT ignition is PERMITTED.
+[17:52:53] [Server thread/INFO]: [WorldGuard] (survival) Lighters are PERMITTED.
+[17:52:53] [Server thread/INFO]: [WorldGuard] (survival) Lava fire is PERMITTED.
+[17:52:53] [Server thread/INFO]: [WorldGuard] (survival) Fire spread is UNRESTRICTED.
+[17:52:53] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'survival'
+[17:52:53] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
+[17:52:53] [Server thread/INFO]: [Multiverse-Core] Version 4.3.12 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[17:52:53] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.18.1
+[17:52:53] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
+[17:52:53] [Server thread/INFO]: [GriefPrevention] 0 total claims loaded.
+[17:52:54] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
+[17:52:54] [Server thread/INFO]: [GriefPrevention] Successfully hooked into WorldGuard.
+[17:52:54] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
+[17:52:54] [Server thread/INFO]: [GriefPrevention] Boot finished.
+[17:52:54] [Server thread/INFO]: [Skript] Enabling Skript v2.7.1
+[17:52:56] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] You're currently running the latest stable version of Skript.
+[17:53:08] [Server thread/INFO]: [Skript] Loaded 232540 aliases in 13833ms
+[17:53:11] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
+[17:53:11] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v3.0.3
+[17:53:12] [Server thread/INFO]: [HolographicDisplays] Fatal error while enabling HolographicDisplays v3.0.3:
+
+Holographic Displays only supports Spigot from 1.8 to 1.20.
+The plugin has been disabled.
+
+[17:53:12] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
+[17:53:12] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[17:53:12] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[17:53:12] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[17:53:13] [Server thread/INFO]: [Essentials] Loaded 39094 items from items.json.
+[17:53:13] [Server thread/INFO]: [Essentials] Using locale en_US
+[17:53:13] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[17:53:13] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[17:53:13] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[17:53:13] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[17:53:13] [Server thread/INFO]: [VirtualBooks] Enabling VirtualBooks v2.7.3
+[17:53:13] [Server thread/INFO]: [VirtualBooks] Enabling the plugin v2.7.3
+[17:53:13] [Server thread/ERROR]: Cannot load plugins\VirtualBooks\Books\firstjoin.yml
+org.bukkit.configuration.InvalidConfigurationException: while scanning a quoted scalar
+ in 'reader', line 7, column 5:
+      - 'welcome bla bla blah"
+        ^
+found unexpected end of stream
+ in 'reader', line 8, column 1:
+    
+    ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:111) ~[pufferfish-api-1.20.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160) ~[pufferfish-api-1.20.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128) ~[pufferfish-api-1.20.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:309) ~[pufferfish-api-1.20.2-R0.1-SNAPSHOT.jar:?]
+	at me.theblazingpro.virtualbooks.files.FileManager.setup(FileManager.java:36) ~[VirtualBooks-2.7.3.jar:?]
+	at me.theblazingpro.virtualbooks.Main.onEnable(Main.java:31) ~[VirtualBooks-2.7.3.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281) ~[pufferfish-api-1.20.2-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189) ~[pufferfish-1.20.2.jar:git-Pufferfish-29]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104) ~[pufferfish-1.20.2.jar:git-Pufferfish-29]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507) ~[pufferfish-api-1.20.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R2.CraftServer.enablePlugin(CraftServer.java:644) ~[pufferfish-1.20.2.jar:git-Pufferfish-29]
+	at org.bukkit.craftbukkit.v1_20_R2.CraftServer.enablePlugins(CraftServer.java:555) ~[pufferfish-1.20.2.jar:git-Pufferfish-29]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:629) ~[pufferfish-1.20.2.jar:git-Pufferfish-29]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:426) ~[pufferfish-1.20.2.jar:git-Pufferfish-29]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:310) ~[pufferfish-1.20.2.jar:git-Pufferfish-29]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1088) ~[pufferfish-1.20.2.jar:git-Pufferfish-29]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[pufferfish-1.20.2.jar:git-Pufferfish-29]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+Caused by: org.yaml.snakeyaml.scanner.ScannerException: while scanning a quoted scalar
+ in 'reader', line 7, column 5:
+      - 'welcome bla bla blah"
+        ^
+found unexpected end of stream
+ in 'reader', line 8, column 1:
+    
+    ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.scanFlowScalarSpaces(ScannerImpl.java:1976) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.scanFlowScalar(ScannerImpl.java:1884) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchFlowScalar(ScannerImpl.java:1057) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchSingle(ScannerImpl.java:1032) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:423) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:238) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseIndentlessSequenceEntryValue.produce(ParserImpl.java:610) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseIndentlessSequenceEntryKey.produce(ParserImpl.java:592) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:152) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeSequenceNode(Composer.java:272) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:207) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:131) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:157) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.Yaml.compose(Yaml.java:575) ~[snakeyaml-2.2.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:104) ~[pufferfish-api-1.20.2-R0.1-SNAPSHOT.jar:?]
+	... 17 more
+[17:53:13] [Server thread/INFO]: [VirtualBooks] Your server is running version v1_20_R2
+[17:53:13] [Server thread/INFO]: [VirtualBooks] VirtualBooks setup was successful!
+[17:53:13] [Server thread/INFO]: [VirtualBooks] VirtualBooks setup process is complete!
+[17:53:13] [Server thread/INFO]: [VirtualBooks] Attempting to register book commands...
+[17:53:13] [Server thread/INFO]: [VirtualBooks] Commands registered successfully!
+[17:53:13] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.8.1
+[17:53:13] [Server thread/INFO]: [VaultChatFormatter] Enabling VaultChatFormatter v1.1-SNAPSHOT
+[17:53:13] [Server thread/INFO]: [VaultChatFormatter] New Vault Chat implementation registered: LuckPerms
+[17:53:13] [Server thread/INFO]: [StayPut] Enabling StayPut v1.1*
+[17:53:14] [Server thread/INFO]: [com.j256.ormlite.table.TableUtils] creating table 'stayput_position'
+[17:53:14] [Server thread/INFO]: [com.j256.ormlite.table.TableUtils] executed create table statement changed 0 rows: CREATE TABLE IF NOT EXISTS `stayput_position` (`id` INTEGER PRIMARY KEY AUTOINCREMENT , `uuid` VARCHAR , `player_name` VARCHAR , `world_name` VARCHAR , `coordinate_x` DOUBLE PRECISION , `coordinate_y` DOUBLE PRECISION , `coordinate_z` DOUBLE PRECISION , `yaw` FLOAT , `pitch` FLOAT ) 
+[17:53:14] [Server thread/INFO]: [spark] Enabling spark v1.10.34
+[17:53:14] [Server thread/INFO]: [spark] Using Paper ServerTickStartEvent for tick monitoring
+[17:53:14] [Server thread/INFO]: [spark] Starting background profiler...
+[17:53:14] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[17:53:14] [Server thread/INFO]: [skUtilities] Enabling skUtilities v0.9.2*
+[17:53:14] [Server thread/INFO]: [skUtilities] v0.9.2: loaded modules (Conversions, Files, Yaml, Urls, Utilities) in 150ms
+[17:53:14] [Server thread/INFO]: [skRayFall] Enabling skRayFall v1.9.28
+[17:53:14] [Server thread/INFO]: [skRayFall] Yay! You are running skRayFall 1.9.28!
+[17:53:14] [Server thread/INFO]: [skRayFall] Nathan and Lewis <3 you.
+[17:53:14] [Server thread/INFO]: [skRayFall] Cooking Bacon...
+[17:53:14] [Server thread/INFO]: [skRayFall] Citizens not found! Sorry you cant make friends, but don't worry we will still be your friend <3
+[17:53:14] [Server thread/INFO]: [skRayFall] Got bacon for the EffectLib particle ninjas!
+[17:53:15] [Server thread/INFO]: [skRayFall] No Votifier Found! *Checks oven for finished bacon*
+[17:53:15] [Server thread/INFO]: [skRayFall] Enabling general 1.8+ bacon!
+[17:53:15] [Server thread/INFO]: [skRayFall] Getting the general 1.9+ bacon!
+[17:53:15] [Server thread/INFO]: [skRayFall] Getting the extra special 1.17+ bacon!
+[17:53:15] [Server thread/INFO]: [skRayFall] Bacon is ready!
+[17:53:15] [Server thread/INFO]: [PVP Arena] Enabling pvparena v1.15.3
+[17:53:16] [Server thread/INFO]: [PVP Arena] debugging: off
+[17:53:16] [Server thread/INFO]: [PVP Arena] enabled (version pvparena v1.15.3)
+[17:53:16] [Server thread/INFO]: [PL-Hide] Enabling PL-Hide v1.5.21
+[17:53:16] [Server thread/INFO]: [goPaint] Enabling goPaint v3.1.0-70
+[17:53:16] [Server thread/INFO]: [goBrush] Enabling goBrush v3.8.0-63
+[17:53:16] [Thread-10/INFO]: [PVP Arena] PVP Arena is up to date
+[17:53:16] [Thread-11/INFO]: [PVP Arena] PVP Arena modules are not detected
+[17:53:18] [Server thread/INFO]: [Chunky] Enabling Chunky v1.3.92
+[17:53:18] [Server thread/INFO]: [BetterRTP] Enabling BetterRTP v3.6.11
+[17:53:19] [Server thread/INFO]: [BetterRTP] Cooldown = 600
+[17:53:19] [Server thread/INFO]: [AdvancedPortals] Enabling AdvancedPortals v0.9.3
+[17:53:19] [Server thread/INFO]: [AdvancedPortals] BLOCK_PORTAL_TRAVEL found
+[17:53:19] [Server thread/WARN]: [AdvancedPortals] Proxy features disabled for Advanced Portals as bungee isn't enabled on the server (spigot.yml).If you are using Paper proxies.velocity.enabled (config/paper-global.yml) or settings.velocity-support.enabled (paper.yml) may not be enabled 
+[17:53:19] [Server thread/INFO]: Advanced portals have been successfully enabled!
+[17:53:19] [Server thread/INFO]: Running delayed init tasks
+[17:53:19] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.regions.WorldGuardFeature] Plugin 'WorldGuard' found. Using it now.
+[17:53:19] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.FaweBukkit] Attempting to use plugin 'WorldGuard'
+[17:53:19] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.regions.GriefPreventionFeature] Plugin 'GriefPrevention' found. Using it now.
+[17:53:19] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.FaweBukkit] Attempting to use plugin 'GriefPrevention'
+[17:53:19] [Server thread/INFO]: [Skript] Loading variables...
+[17:53:19] [Craft Scheduler Thread - 6 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[17:53:19] [Server thread/INFO]: [Skript] Loaded 3 variables in 0.1 seconds
+[17:53:19] [Craft Scheduler Thread - 7 - Essentials/INFO]: [Essentials] Fetching version information...
+[17:53:20] [Craft Scheduler Thread - 16 - Vault/INFO]: [Vault] Checking for Updates ... 
+[17:53:20] [Craft Scheduler Thread - 16 - Vault/INFO]: [Vault] No new version available
+[17:53:20] [Server thread/INFO]: [Skript] All scripts loaded without errors.
+[17:53:20] [Server thread/INFO]: [Skript] Loaded 2 scripts with a total of 5 structures in 0.6 seconds
+[17:53:20] [Server thread/INFO]: [Skript] Finished loading.
+[17:53:20] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[17:53:20] [Server thread/INFO]: Done (51.842s)! For help, type "help"
+[17:53:20] [Server thread/INFO]: Timings Reset
+[17:53:21] [Server thread/INFO]: [HolographicDisplays] Fatal error while enabling the plugin. Check previous logs for more information.
+[17:55:39] [User Authenticator #0/INFO]: UUID of player zenith421 is aed21202-4f57-4c50-82cc-ac584d97b9d2
+[17:55:39] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/building_blocks/purple_wool' in progress file .\world\advancements\aed21202-4f57-4c50-82cc-ac584d97b9d2.json - it doesn't exist anymore?
+[17:55:39] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/building_blocks/magenta_wool' in progress file .\world\advancements\aed21202-4f57-4c50-82cc-ac584d97b9d2.json - it doesn't exist anymore?
+[17:55:39] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/building_blocks/cyan_wool' in progress file .\world\advancements\aed21202-4f57-4c50-82cc-ac584d97b9d2.json - it doesn't exist anymore?
+[17:55:39] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/building_blocks/gray_wool' in progress file .\world\advancements\aed21202-4f57-4c50-82cc-ac584d97b9d2.json - it doesn't exist anymore?
+[17:55:39] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/building_blocks/blue_wool' in progress file .\world\advancements\aed21202-4f57-4c50-82cc-ac584d97b9d2.json - it doesn't exist anymore?
+[17:55:39] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/building_blocks/orange_wool' in progress file .\world\advancements\aed21202-4f57-4c50-82cc-ac584d97b9d2.json - it doesn't exist anymore?
+[17:55:39] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/building_blocks/lime_wool' in progress file .\world\advancements\aed21202-4f57-4c50-82cc-ac584d97b9d2.json - it doesn't exist anymore?
+[17:55:39] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/building_blocks/black_wool' in progress file .\world\advancements\aed21202-4f57-4c50-82cc-ac584d97b9d2.json - it doesn't exist anymore?
+[17:55:39] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/building_blocks/green_wool' in progress file .\world\advancements\aed21202-4f57-4c50-82cc-ac584d97b9d2.json - it doesn't exist anymore?
+[17:55:39] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/building_blocks/brown_wool' in progress file .\world\advancements\aed21202-4f57-4c50-82cc-ac584d97b9d2.json - it doesn't exist anymore?
+[17:55:39] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/building_blocks/light_blue_wool' in progress file .\world\advancements\aed21202-4f57-4c50-82cc-ac584d97b9d2.json - it doesn't exist anymore?
+[17:55:39] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/building_blocks/yellow_wool' in progress file .\world\advancements\aed21202-4f57-4c50-82cc-ac584d97b9d2.json - it doesn't exist anymore?
+[17:55:39] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/building_blocks/pink_wool' in progress file .\world\advancements\aed21202-4f57-4c50-82cc-ac584d97b9d2.json - it doesn't exist anymore?
+[17:55:39] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/building_blocks/light_gray_wool' in progress file .\world\advancements\aed21202-4f57-4c50-82cc-ac584d97b9d2.json - it doesn't exist anymore?
+[17:55:39] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/building_blocks/red_wool' in progress file .\world\advancements\aed21202-4f57-4c50-82cc-ac584d97b9d2.json - it doesn't exist anymore?
+[17:55:39] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/decorations/green_carpet_from_white_carpet' in progress file .\world\advancements\aed21202-4f57-4c50-82cc-ac584d97b9d2.json - it doesn't exist anymore?
+[17:55:39] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/decorations/light_blue_carpet_from_white_carpet' in progress file .\world\advancements\aed21202-4f57-4c50-82cc-ac584d97b9d2.json - it doesn't exist anymore?
+[17:55:39] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/decorations/cyan_carpet_from_white_carpet' in progress file .\world\advancements\aed21202-4f57-4c50-82cc-ac584d97b9d2.json - it doesn't exist anymore?
+[17:55:39] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/decorations/blue_carpet_from_white_carpet' in progress file .\world\advancements\aed21202-4f57-4c50-82cc-ac584d97b9d2.json - it doesn't exist anymore?
+[17:55:39] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/decorations/black_carpet_from_white_carpet' in progress file .\world\advancements\aed21202-4f57-4c50-82cc-ac584d97b9d2.json - it doesn't exist anymore?
+[17:55:39] [Server thread/WARN]: Ignored advancement 'minecraft:recipes/decorations/yellow_carpet_from_white_carpet' in progress file .\world\advancements\aed21202-4f57-4c50-82cc-ac584d97b9d2.json - it doesn't exist anymore?
+[17:55:40] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:black_carpet_from_white_carpet removed now.
+[17:55:40] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:yellow_carpet_from_white_carpet removed now.
+[17:55:40] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:black_carpet_from_white_carpet removed now.
+[17:55:40] [Server thread/ERROR]: Tried to load unrecognized recipe: minecraft:yellow_carpet_from_white_carpet removed now.
+[17:55:41] [Server thread/INFO]: zenith421[/127.0.0.1:8537] logged in with entity id 79 at ([world]206.5, -59.0, -140.5)
+[17:55:41] [Server thread/WARN]: [Essentials] Permissions lag notice with (LuckPermsHandler). Response took 99.259100ms. Summary: Getting prefix for zenith421
+[17:56:59] [Server thread/INFO]: zenith421 issued server command: /plugins
+[17:57:06] [Server thread/INFO]: zenith421 issued server command: /hub
+[17:57:09] [Server thread/INFO]: zenith421 issued server command: /pvparena
+[17:57:11] [Server thread/INFO]: zenith421 issued server command: /gmc
+[18:06:07] [Server thread/INFO]: [AdvancedPortals] Portal command: survival
+[18:06:07] [Server thread/INFO]: zenith421 issued server command: /survival
+[18:06:07] [Server thread/WARN]: java.sql.SQLException: Unable to run insert stmt on object nl.zandervdm.stayput.Models.Position@8061c4e: INSERT INTO `stayput_position` (`uuid` ,`player_name` ,`world_name` ,`coordinate_x` ,`coordinate_y` ,`coordinate_z` ,`yaw` ,`pitch` ) VALUES (?,?,?,?,?,?,?,?)
+[18:06:07] [Server thread/WARN]: 	at stayput.jar//com.j256.ormlite.misc.SqlExceptionUtil.create(SqlExceptionUtil.java:25)
+[18:06:07] [Server thread/WARN]: 	at stayput.jar//com.j256.ormlite.stmt.mapped.MappedCreate.insert(MappedCreate.java:137)
+[18:06:07] [Server thread/WARN]: 	at stayput.jar//com.j256.ormlite.stmt.StatementExecutor.create(StatementExecutor.java:458)
+[18:06:07] [Server thread/WARN]: 	at stayput.jar//com.j256.ormlite.dao.BaseDaoImpl.create(BaseDaoImpl.java:328)
+[18:06:07] [Server thread/WARN]: 	at stayput.jar//com.j256.ormlite.dao.BaseDaoImpl.createOrUpdate(BaseDaoImpl.java:387)
+[18:06:07] [Server thread/WARN]: 	at stayput.jar//nl.zandervdm.stayput.Repositories.PositionRepository.updateLocationForPlayer(PositionRepository.java:45)
+[18:06:07] [Server thread/WARN]: 	at stayput.jar//nl.zandervdm.stayput.Listeners.PlayerTeleportEventListener.onPlayerTeleportEvent(PlayerTeleportEventListener.java:40)
+[18:06:07] [Server thread/WARN]: 	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor292.execute(Unknown Source)
+[18:06:07] [Server thread/WARN]: 	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77)
+[18:06:07] [Server thread/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:77)
+[18:06:07] [Server thread/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[18:06:07] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[18:06:07] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126)
+[18:06:07] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:617)
+[18:06:07] [Server thread/WARN]: 	at multiverse-core-4.3.12.jar//com.onarandombox.MultiverseCore.commands.TeleportCommand.runCommand(TeleportCommand.java:84)
+[18:06:07] [Server thread/WARN]: 	at multiverse-core-4.3.12.jar//com.onarandombox.commandhandler.CommandHandler.checkAndRunCommand(CommandHandler.java:296)
+[18:06:07] [Server thread/WARN]: 	at multiverse-core-4.3.12.jar//com.onarandombox.commandhandler.CommandHandler.processFoundCommands(CommandHandler.java:143)
+[18:06:07] [Server thread/WARN]: 	at multiverse-core-4.3.12.jar//com.onarandombox.commandhandler.CommandHandler.locateAndRunCommand(CommandHandler.java:93)
+[18:06:07] [Server thread/WARN]: 	at multiverse-core-4.3.12.jar//com.onarandombox.MultiverseCore.MultiverseCore.onCommand(MultiverseCore.java:839)
+[18:06:07] [Server thread/WARN]: 	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)
+[18:06:07] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155)
+[18:06:07] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R2.CraftServer.dispatchCommand(CraftServer.java:989)
+[18:06:07] [Server thread/WARN]: 	at org.bukkit.Bukkit.dispatchCommand(Bukkit.java:1063)
+[18:06:07] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.Skript.dispatchCommand(Skript.java:1522)
+[18:06:07] [Server thread/WARN]: 	at skUtilities.v0.9.2.jar//uk.tim740.skUtilities.util.EffRunOpCmd.execute(EffRunOpCmd.java:37)
+[18:06:07] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.lang.Effect.run(Effect.java:50)
+[18:06:07] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:62)
+[18:06:07] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:90)
+[18:06:07] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.lang.Trigger.execute(Trigger.java:52)
+[18:06:07] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.command.ScriptCommand.execute2(ScriptCommand.java:324)
+[18:06:07] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.command.ScriptCommand.lambda$execute$0(ScriptCommand.java:283)
+[18:06:07] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.command.ScriptCommand.execute(ScriptCommand.java:294)
+[18:06:07] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.command.ScriptCommand.onCommand(ScriptCommand.java:221)
+[18:06:07] [Server thread/WARN]: 	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)
+[18:06:07] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155)
+[18:06:07] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R2.CraftServer.dispatchCommand(CraftServer.java:989)
+[18:06:07] [Server thread/WARN]: 	at net.minecraft.server.network.PlayerConnection.handleCommand(PlayerConnection.java:2408)
+[18:06:07] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R2.entity.CraftPlayer.chat(CraftPlayer.java:707)
+[18:06:07] [Server thread/WARN]: 	at Advanced-Portals-0.9.3.jar//com.sekwah.advancedportals.bukkit.portals.Portal.activate(Portal.java:613)
+[18:06:07] [Server thread/WARN]: 	at Advanced-Portals-0.9.3.jar//com.sekwah.advancedportals.bukkit.portals.Portal.activate(Portal.java:739)
+[18:06:07] [Server thread/WARN]: 	at Advanced-Portals-0.9.3.jar//com.sekwah.advancedportals.bukkit.listeners.Listeners.checkTriggerLocations(Listeners.java:152)
+[18:06:07] [Server thread/WARN]: 	at Advanced-Portals-0.9.3.jar//com.sekwah.advancedportals.bukkit.listeners.Listeners.onMoveEvent(Listeners.java:128)
+[18:06:07] [Server thread/WARN]: 	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor371.execute(Unknown Source)
+[18:06:07] [Server thread/WARN]: 	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77)
+[18:06:07] [Server thread/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:77)
+[18:06:07] [Server thread/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[18:06:07] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[18:06:07] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126)
+[18:06:07] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:617)
+[18:06:07] [Server thread/WARN]: 	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:1536)
+[18:06:07] [Server thread/WARN]: 	at net.minecraft.network.protocol.game.PacketPlayInFlying.a(PacketPlayInFlying.java:29)
+[18:06:07] [Server thread/WARN]: 	at net.minecraft.network.protocol.game.PacketPlayInFlying$PacketPlayInPosition.a(PacketPlayInFlying.java:66)
+[18:06:07] [Server thread/WARN]: 	at net.minecraft.network.protocol.PlayerConnectionUtils.lambda$ensureRunningOnSameThread$0(PlayerConnectionUtils.java:53)
+[18:06:07] [Server thread/WARN]: 	at net.minecraft.server.TickTask.run(TickTask.java:18)
+[18:06:07] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandler.d(IAsyncTaskHandler.java:153)
+[18:06:07] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.d(IAsyncTaskHandlerReentrant.java:24)
+[18:06:07] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1326)
+[18:06:07] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:193)
+[18:06:07] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandler.x(IAsyncTaskHandler.java:126)
+[18:06:07] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.bg(MinecraftServer.java:1303)
+[18:06:07] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1296)
+[18:06:07] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandler.c(IAsyncTaskHandler.java:136)
+[18:06:07] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.u_(MinecraftServer.java:1274)
+[18:06:07] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1162)
+[18:06:07] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317)
+[18:06:07] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[18:06:07] [Server thread/WARN]: Caused by: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (table stayput_position has no column named player_name)
+[18:06:07] [Server thread/WARN]: 	at org.sqlite.core.DB.newSQLException(DB.java:1179)
+[18:06:07] [Server thread/WARN]: 	at org.sqlite.core.DB.newSQLException(DB.java:1190)
+[18:06:07] [Server thread/WARN]: 	at org.sqlite.core.DB.throwex(DB.java:1150)
+[18:06:07] [Server thread/WARN]: 	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+[18:06:07] [Server thread/WARN]: 	at org.sqlite.core.NativeDB.prepare(NativeDB.java:126)
+[18:06:07] [Server thread/WARN]: 	at org.sqlite.core.DB.prepare(DB.java:264)
+[18:06:07] [Server thread/WARN]: 	at org.sqlite.core.CorePreparedStatement.<init>(CorePreparedStatement.java:46)
+[18:06:07] [Server thread/WARN]: 	at org.sqlite.jdbc3.JDBC3PreparedStatement.<init>(JDBC3PreparedStatement.java:32)
+[18:06:07] [Server thread/WARN]: 	at org.sqlite.jdbc4.JDBC4PreparedStatement.<init>(JDBC4PreparedStatement.java:25)
+[18:06:07] [Server thread/WARN]: 	at org.sqlite.jdbc4.JDBC4Connection.prepareStatement(JDBC4Connection.java:34)
+[18:06:07] [Server thread/WARN]: 	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:227)
+[18:06:07] [Server thread/WARN]: 	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:207)
+[18:06:07] [Server thread/WARN]: 	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:212)
+[18:06:07] [Server thread/WARN]: 	at stayput.jar//com.j256.ormlite.jdbc.JdbcDatabaseConnection.insert(JdbcDatabaseConnection.java:179)
+[18:06:07] [Server thread/WARN]: 	at stayput.jar//com.j256.ormlite.stmt.mapped.MappedCreate.insert(MappedCreate.java:91)
+[18:06:07] [Server thread/WARN]: 	... 64 more
+[18:06:17] [Server thread/INFO]: zenith421 issued server command: /rtp
+[18:06:38] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.listener.ChunkListener] [FAWE Tick Limiter] Detected and cancelled physics lag source at Location{world=CraftWorld{name=survival},x=-788.0,y=77.0,z=12.0,pitch=0.0,yaw=0.0}
+[18:06:44] [Server thread/INFO]: zenith421 issued server command: /hub
+[18:06:48] [Server thread/INFO]: zenith421 issued server command: /pvp
+[18:06:51] [Server thread/INFO]: zenith421 issued server command: /gmc
+[18:09:22] [Server thread/INFO]: zenith421 has made the advancement [Hot Stuff]
+[18:09:32] [Server thread/INFO]: zenith421 issued server command: /give zenith421 command_block
+[18:14:19] [Server thread/INFO]: zenith421 issued server command: /help
+[18:14:32] [Server thread/INFO]: zenith421 issued server command: /pay zenith421 10
+[18:15:52] [Server thread/INFO]: zenith421 issued server command: /survival
+[18:15:52] [Server thread/WARN]: java.sql.SQLException: Unable to run insert stmt on object nl.zandervdm.stayput.Models.Position@30b436e9: INSERT INTO `stayput_position` (`uuid` ,`player_name` ,`world_name` ,`coordinate_x` ,`coordinate_y` ,`coordinate_z` ,`yaw` ,`pitch` ) VALUES (?,?,?,?,?,?,?,?)
+[18:15:52] [Server thread/WARN]: 	at stayput.jar//com.j256.ormlite.misc.SqlExceptionUtil.create(SqlExceptionUtil.java:25)
+[18:15:52] [Server thread/WARN]: 	at stayput.jar//com.j256.ormlite.stmt.mapped.MappedCreate.insert(MappedCreate.java:137)
+[18:15:52] [Server thread/WARN]: 	at stayput.jar//com.j256.ormlite.stmt.StatementExecutor.create(StatementExecutor.java:458)
+[18:15:52] [Server thread/WARN]: 	at stayput.jar//com.j256.ormlite.dao.BaseDaoImpl.create(BaseDaoImpl.java:328)
+[18:15:52] [Server thread/WARN]: 	at stayput.jar//com.j256.ormlite.dao.BaseDaoImpl.createOrUpdate(BaseDaoImpl.java:387)
+[18:15:52] [Server thread/WARN]: 	at stayput.jar//nl.zandervdm.stayput.Repositories.PositionRepository.updateLocationForPlayer(PositionRepository.java:45)
+[18:15:52] [Server thread/WARN]: 	at stayput.jar//nl.zandervdm.stayput.Listeners.PlayerTeleportEventListener.onPlayerTeleportEvent(PlayerTeleportEventListener.java:40)
+[18:15:52] [Server thread/WARN]: 	at com.destroystokyo.paper.event.executor.asm.generated.GeneratedEventExecutor292.execute(Unknown Source)
+[18:15:52] [Server thread/WARN]: 	at org.bukkit.plugin.EventExecutor$2.execute(EventExecutor.java:77)
+[18:15:52] [Server thread/WARN]: 	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:77)
+[18:15:52] [Server thread/WARN]: 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70)
+[18:15:52] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54)
+[18:15:52] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126)
+[18:15:52] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:617)
+[18:15:52] [Server thread/WARN]: 	at multiverse-core-4.3.12.jar//com.onarandombox.MultiverseCore.commands.TeleportCommand.runCommand(TeleportCommand.java:84)
+[18:15:52] [Server thread/WARN]: 	at multiverse-core-4.3.12.jar//com.onarandombox.commandhandler.CommandHandler.checkAndRunCommand(CommandHandler.java:296)
+[18:15:52] [Server thread/WARN]: 	at multiverse-core-4.3.12.jar//com.onarandombox.commandhandler.CommandHandler.processFoundCommands(CommandHandler.java:143)
+[18:15:52] [Server thread/WARN]: 	at multiverse-core-4.3.12.jar//com.onarandombox.commandhandler.CommandHandler.locateAndRunCommand(CommandHandler.java:93)
+[18:15:52] [Server thread/WARN]: 	at multiverse-core-4.3.12.jar//com.onarandombox.MultiverseCore.MultiverseCore.onCommand(MultiverseCore.java:839)
+[18:15:52] [Server thread/WARN]: 	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)
+[18:15:52] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155)
+[18:15:52] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R2.CraftServer.dispatchCommand(CraftServer.java:989)
+[18:15:52] [Server thread/WARN]: 	at org.bukkit.Bukkit.dispatchCommand(Bukkit.java:1063)
+[18:15:52] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.Skript.dispatchCommand(Skript.java:1522)
+[18:15:52] [Server thread/WARN]: 	at skUtilities.v0.9.2.jar//uk.tim740.skUtilities.util.EffRunOpCmd.execute(EffRunOpCmd.java:37)
+[18:15:52] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.lang.Effect.run(Effect.java:50)
+[18:15:52] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:62)
+[18:15:52] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.lang.TriggerItem.walk(TriggerItem.java:90)
+[18:15:52] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.lang.Trigger.execute(Trigger.java:52)
+[18:15:52] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.command.ScriptCommand.execute2(ScriptCommand.java:324)
+[18:15:52] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.command.ScriptCommand.lambda$execute$0(ScriptCommand.java:283)
+[18:15:52] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.command.ScriptCommand.execute(ScriptCommand.java:294)
+[18:15:52] [Server thread/WARN]: 	at Skript.jar//ch.njol.skript.command.ScriptCommand.onCommand(ScriptCommand.java:221)
+[18:15:52] [Server thread/WARN]: 	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)
+[18:15:52] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155)
+[18:15:52] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R2.CraftServer.dispatchCommand(CraftServer.java:989)
+[18:15:52] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R2.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:64)
+[18:15:52] [Server thread/WARN]: 	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:265)
+[18:15:52] [Server thread/WARN]: 	at net.minecraft.commands.CommandDispatcher.performCommand(CommandDispatcher.java:330)
+[18:15:52] [Server thread/WARN]: 	at net.minecraft.commands.CommandDispatcher.a(CommandDispatcher.java:314)
+[18:15:52] [Server thread/WARN]: 	at net.minecraft.server.network.PlayerConnection.a(PlayerConnection.java:2208)
+[18:15:52] [Server thread/WARN]: 	at net.minecraft.server.network.PlayerConnection.lambda$handleChatCommand$19(PlayerConnection.java:2168)
+[18:15:52] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandler.b(IAsyncTaskHandler.java:59)
+[18:15:52] [Server thread/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+[18:15:52] [Server thread/WARN]: 	at net.minecraft.server.TickTask.run(TickTask.java:18)
+[18:15:52] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandler.d(IAsyncTaskHandler.java:153)
+[18:15:52] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandlerReentrant.d(IAsyncTaskHandlerReentrant.java:24)
+[18:15:52] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1326)
+[18:15:52] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:193)
+[18:15:52] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandler.x(IAsyncTaskHandler.java:126)
+[18:15:52] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.bg(MinecraftServer.java:1303)
+[18:15:52] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.x(MinecraftServer.java:1296)
+[18:15:52] [Server thread/WARN]: 	at net.minecraft.util.thread.IAsyncTaskHandler.c(IAsyncTaskHandler.java:136)
+[18:15:52] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.u_(MinecraftServer.java:1274)
+[18:15:52] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1162)
+[18:15:52] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317)
+[18:15:52] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[18:15:52] [Server thread/WARN]: Caused by: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (table stayput_position has no column named player_name)
+[18:15:52] [Server thread/WARN]: 	at org.sqlite.core.DB.newSQLException(DB.java:1179)
+[18:15:52] [Server thread/WARN]: 	at org.sqlite.core.DB.newSQLException(DB.java:1190)
+[18:15:52] [Server thread/WARN]: 	at org.sqlite.core.DB.throwex(DB.java:1150)
+[18:15:52] [Server thread/WARN]: 	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+[18:15:52] [Server thread/WARN]: 	at org.sqlite.core.NativeDB.prepare(NativeDB.java:126)
+[18:15:52] [Server thread/WARN]: 	at org.sqlite.core.DB.prepare(DB.java:264)
+[18:15:52] [Server thread/WARN]: 	at org.sqlite.core.CorePreparedStatement.<init>(CorePreparedStatement.java:46)
+[18:15:52] [Server thread/WARN]: 	at org.sqlite.jdbc3.JDBC3PreparedStatement.<init>(JDBC3PreparedStatement.java:32)
+[18:15:52] [Server thread/WARN]: 	at org.sqlite.jdbc4.JDBC4PreparedStatement.<init>(JDBC4PreparedStatement.java:25)
+[18:15:52] [Server thread/WARN]: 	at org.sqlite.jdbc4.JDBC4Connection.prepareStatement(JDBC4Connection.java:34)
+[18:15:52] [Server thread/WARN]: 	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:227)
+[18:15:52] [Server thread/WARN]: 	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:207)
+[18:15:52] [Server thread/WARN]: 	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:212)
+[18:15:52] [Server thread/WARN]: 	at stayput.jar//com.j256.ormlite.jdbc.JdbcDatabaseConnection.insert(JdbcDatabaseConnection.java:179)
+[18:15:52] [Server thread/WARN]: 	at stayput.jar//com.j256.ormlite.stmt.mapped.MappedCreate.insert(MappedCreate.java:91)
+[18:15:52] [Server thread/WARN]: 	... 55 more
+[18:15:56] [Server thread/INFO]: zenith421 issued server command: /gmc
+[18:16:02] [Server thread/INFO]: zenith421 issued server command: /rtp
+[18:16:02] [Server thread/WARN]: zenith421 moved too quickly! 813.3188141418619,-25.986324323217517,-988.9867417505033
+[18:16:02] [Server thread/WARN]: zenith421 moved too quickly! 813.3188141418619,-25.986324323217517,-988.9867417505033
+[18:16:02] [Server thread/WARN]: zenith421 moved too quickly! 813.3188141418619,-25.986324323217517,-988.9867417505033
+[18:16:02] [Server thread/WARN]: zenith421 moved too quickly! 813.3188141418619,-25.986324323217517,-988.9867417505033
+[18:16:44] [Server thread/INFO]: zenith421 issued server command: /version
+[18:17:03] [Server thread/INFO]: zenith421 issued server command: /rtp
+[18:17:03] [Server thread/WARN]: zenith421 moved too quickly! -1936.869502126872,-22.449051317233184,562.778306459461
+[18:17:15] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.listener.ChunkListener] [FAWE Tick Limiter] Detected and cancelled physics lag source at Location{world=CraftWorld{name=survival},x=-955.0,y=80.0,z=-497.0,pitch=0.0,yaw=0.0}
+[18:17:23] [Server thread/INFO]: zenith421 issued server command: /rtp
+[18:17:23] [Server thread/WARN]: zenith421 moved too quickly! 14.621521995765079,7.012408138411203,-272.23874663761364
+[18:17:40] [Server thread/INFO]: zenith421 issued server command: /rtp
+[18:17:44] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.listener.ChunkListener] [FAWE Tick Limiter] Detected and cancelled physics lag source at Location{world=CraftWorld{name=survival},x=-408.0,y=80.0,z=-832.0,pitch=0.0,yaw=0.0}
+[18:17:47] [Server thread/INFO]: zenith421 issued server command: /tp 0 0
+[18:17:54] [Server thread/INFO]: zenith421 issued server command: /tp zenith421 0 100 0
+[18:17:54] [Server thread/WARN]: zenith421 moved too quickly! 487.80000001192093,6.006205779144608,854.5427330572934
+[18:18:06] [Server thread/INFO]: zenith421 issued server command: //wand
+[18:18:30] [Server thread/INFO]: zenith421 issued server command: /tp 0 -64 0
+[18:18:30] [Server thread/WARN]: zenith421 moved too quickly! 0.0,-76.0,0.0
+[18:18:38] [Server thread/INFO]: zenith421 issued server command: //set air
+[18:18:38] [AsyncNotifyKeyedQueue - 0/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_20_R2.PaperweightStarlightRelighterFactory as relighter factory.
+[18:18:57] [Server thread/INFO]: zenith421 issued server command: /tp 0 100 0
+[18:19:13] [Server thread/INFO]: zenith421 issued server command: /tp 0 100 0
+[18:19:13] [Server thread/WARN]: zenith421 moved too quickly! -0.19999998807907104,34.508374493666324,-0.19999998807907104
+[18:19:13] [Server thread/WARN]: zenith421 moved too quickly! -0.19999998807907104,34.508374493666324,-0.19999998807907104
+[18:19:13] [Server thread/WARN]: zenith421 moved too quickly! -0.19999998807907104,34.508374493666324,-0.19999998807907104
+[18:19:18] [Server thread/INFO]: zenith421 issued server command: //pos2
+[18:19:23] [Server thread/INFO]: zenith421 issued server command: //set bedrock
+[18:19:37] [Server thread/INFO]: zenith421 issued server command: /tp 0 500 0
+[18:19:40] [Server thread/INFO]: zenith421 issued server command: //set bedrock
+[18:19:45] [Server thread/INFO]: zenith421 issued server command: //pos2
+[18:19:47] [Server thread/INFO]: zenith421 issued server command: //set bedrock
+[18:20:21] [Server thread/INFO]: zenith421 issued server command: /hologram create
+[18:20:21] [Server thread/ERROR]: null
+org.bukkit.command.CommandException: Cannot execute command 'hologram' in plugin HolographicDisplays v3.0.3 - plugin is disabled.
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:37) ~[pufferfish-api-1.20.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155) ~[pufferfish-api-1.20.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R2.CraftServer.dispatchCommand(CraftServer.java:989) ~[pufferfish-1.20.2.jar:git-Pufferfish-29]
+	at org.bukkit.craftbukkit.v1_20_R2.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:64) ~[pufferfish-1.20.2.jar:git-Pufferfish-29]
+	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:265) ~[pufferfish-1.20.2.jar:?]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:330) ~[?:?]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:314) ~[?:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performChatCommand(ServerGamePacketListenerImpl.java:2208) ~[?:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$19(ServerGamePacketListenerImpl.java:2168) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[pufferfish-1.20.2.jar:git-Pufferfish-29]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153) ~[?:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[?:?]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1326) ~[pufferfish-1.20.2.jar:git-Pufferfish-29]
+	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:193) ~[pufferfish-1.20.2.jar:git-Pufferfish-29]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126) ~[?:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1303) ~[pufferfish-1.20.2.jar:git-Pufferfish-29]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1296) ~[pufferfish-1.20.2.jar:git-Pufferfish-29]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136) ~[?:?]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1274) ~[pufferfish-1.20.2.jar:git-Pufferfish-29]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1162) ~[pufferfish-1.20.2.jar:git-Pufferfish-29]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[pufferfish-1.20.2.jar:git-Pufferfish-29]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[18:20:27] [Server thread/INFO]: zenith421 issued server command: /stop
+[18:20:27] [Server thread/INFO]: [zenith421: Stopping the server]
+[18:20:27] [Server thread/INFO]: Stopping server
+[18:20:27] [Server thread/INFO]: [AdvancedPortals] Disabling AdvancedPortals v0.9.3
+[18:20:27] [Server thread/INFO]: Advanced portals are being disabled!
+[18:20:27] [Server thread/INFO]: [Chunky] Disabling Chunky v1.3.92
+[18:20:27] [Server thread/INFO]: [goBrush] Disabling goBrush v3.8.0-63
+[18:20:27] [Server thread/INFO]: [goPaint] Disabling goPaint v3.1.0-70
+[18:20:27] [Server thread/INFO]: [PL-Hide] Disabling PL-Hide v1.5.21
+[18:20:27] [Server thread/INFO]: [PVP Arena] Disabling pvparena v1.15.3
+[18:20:27] [Server thread/INFO]: [PVP Arena] disabled (version pvparena v1.15.3)
+[18:20:27] [Server thread/INFO]: [skRayFall] Disabling skRayFall v1.9.28
+[18:20:27] [Server thread/INFO]: [skRayFall] Bacon has been eaten. Make some more soon!
+[18:20:27] [Server thread/INFO]: [skUtilities] Disabling skUtilities v0.9.2
+[18:20:27] [Server thread/INFO]: [spark] Disabling spark v1.10.34
+[18:20:27] [Server thread/INFO]: [StayPut] Disabling StayPut v1.1
+[18:20:27] [Server thread/WARN]: java.sql.SQLException: Unable to run insert stmt on object nl.zandervdm.stayput.Models.Position@4e147644: INSERT INTO `stayput_position` (`uuid` ,`player_name` ,`world_name` ,`coordinate_x` ,`coordinate_y` ,`coordinate_z` ,`yaw` ,`pitch` ) VALUES (?,?,?,?,?,?,?,?)
+[18:20:27] [Server thread/WARN]: 	at stayput.jar//com.j256.ormlite.misc.SqlExceptionUtil.create(SqlExceptionUtil.java:25)
+[18:20:27] [Server thread/WARN]: 	at stayput.jar//com.j256.ormlite.stmt.mapped.MappedCreate.insert(MappedCreate.java:137)
+[18:20:27] [Server thread/WARN]: 	at stayput.jar//com.j256.ormlite.stmt.StatementExecutor.create(StatementExecutor.java:458)
+[18:20:27] [Server thread/WARN]: 	at stayput.jar//com.j256.ormlite.dao.BaseDaoImpl.create(BaseDaoImpl.java:328)
+[18:20:27] [Server thread/WARN]: 	at stayput.jar//com.j256.ormlite.dao.BaseDaoImpl.createOrUpdate(BaseDaoImpl.java:387)
+[18:20:27] [Server thread/WARN]: 	at stayput.jar//nl.zandervdm.stayput.Repositories.PositionRepository.updateLocationForPlayer(PositionRepository.java:45)
+[18:20:27] [Server thread/WARN]: 	at stayput.jar//nl.zandervdm.stayput.Main.syncPlayerstoDatabase(Main.java:153)
+[18:20:27] [Server thread/WARN]: 	at stayput.jar//nl.zandervdm.stayput.Main.onDisable(Main.java:60)
+[18:20:27] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:283)
+[18:20:27] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:224)
+[18:20:27] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugins(PaperPluginInstanceManager.java:148)
+[18:20:27] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.disablePlugins(PaperPluginManagerImpl.java:92)
+[18:20:27] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:528)
+[18:20:27] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R2.CraftServer.disablePlugins(CraftServer.java:575)
+[18:20:27] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.t(MinecraftServer.java:932)
+[18:20:27] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.t(DedicatedServer.java:821)
+[18:20:27] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1197)
+[18:20:27] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317)
+[18:20:27] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[18:20:27] [Server thread/WARN]: Caused by: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (table stayput_position has no column named player_name)
+[18:20:27] [Server thread/WARN]: 	at org.sqlite.core.DB.newSQLException(DB.java:1179)
+[18:20:27] [Server thread/WARN]: 	at org.sqlite.core.DB.newSQLException(DB.java:1190)
+[18:20:27] [Server thread/WARN]: 	at org.sqlite.core.DB.throwex(DB.java:1150)
+[18:20:27] [Server thread/WARN]: 	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+[18:20:27] [Server thread/WARN]: 	at org.sqlite.core.NativeDB.prepare(NativeDB.java:126)
+[18:20:27] [Server thread/WARN]: 	at org.sqlite.core.DB.prepare(DB.java:264)
+[18:20:27] [Server thread/WARN]: 	at org.sqlite.core.CorePreparedStatement.<init>(CorePreparedStatement.java:46)
+[18:20:27] [Server thread/WARN]: 	at org.sqlite.jdbc3.JDBC3PreparedStatement.<init>(JDBC3PreparedStatement.java:32)
+[18:20:27] [Server thread/WARN]: 	at org.sqlite.jdbc4.JDBC4PreparedStatement.<init>(JDBC4PreparedStatement.java:25)
+[18:20:27] [Server thread/WARN]: 	at org.sqlite.jdbc4.JDBC4Connection.prepareStatement(JDBC4Connection.java:34)
+[18:20:27] [Server thread/WARN]: 	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:227)
+[18:20:27] [Server thread/WARN]: 	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:207)
+[18:20:27] [Server thread/WARN]: 	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:212)
+[18:20:27] [Server thread/WARN]: 	at stayput.jar//com.j256.ormlite.jdbc.JdbcDatabaseConnection.insert(JdbcDatabaseConnection.java:179)
+[18:20:27] [Server thread/WARN]: 	at stayput.jar//com.j256.ormlite.stmt.mapped.MappedCreate.insert(MappedCreate.java:91)
+[18:20:27] [Server thread/WARN]: 	... 17 more
+[18:20:27] [Server thread/INFO]: [VaultChatFormatter] Disabling VaultChatFormatter v1.1-SNAPSHOT
+[18:20:27] [spark-worker-0-5/WARN]: org.bukkit.plugin.IllegalPluginAccessException: Plugin attempted to register task while disabled
+[18:20:27] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.8.1
+[18:20:27] [Server thread/INFO]: [VirtualBooks] Disabling VirtualBooks v2.7.3
+[18:20:27] [Server thread/INFO]: [VirtualBooks] Disabling the plugin v2.7.3
+[18:20:27] [spark-worker-0-5/WARN]: 	at org.bukkit.craftbukkit.v1_20_R2.scheduler.CraftScheduler.validate(CraftScheduler.java:548)
+[18:20:27] [spark-worker-0-5/WARN]: 	at org.bukkit.craftbukkit.v1_20_R2.scheduler.CraftScheduler.runTaskTimer(CraftScheduler.java:224)
+[18:20:27] [spark-worker-0-5/WARN]: 	at org.bukkit.craftbukkit.v1_20_R2.scheduler.CraftScheduler.runTaskTimer(CraftScheduler.java:209)
+[18:20:27] [spark-worker-0-5/WARN]: 	at org.bukkit.craftbukkit.v1_20_R2.scheduler.CraftScheduler.runTaskLater(CraftScheduler.java:173)
+[18:20:27] [spark-worker-0-5/WARN]: 	at org.bukkit.craftbukkit.v1_20_R2.scheduler.CraftScheduler.runTask(CraftScheduler.java:142)
+[18:20:27] [spark-worker-0-5/WARN]: 	at spark-1.10.34-bukkit.jar//me.lucko.spark.bukkit.BukkitSparkPlugin.executeSync(BukkitSparkPlugin.java:150)
+[18:20:27] [spark-worker-0-5/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.asyncSupplyStage(CompletableFuture.java:1782)
+[18:20:27] [spark-worker-0-5/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.supplyAsync(CompletableFuture.java:2005)
+[18:20:27] [spark-worker-0-5/WARN]: 	at spark-1.10.34-bukkit.jar//me.lucko.spark.common.platform.world.AsyncWorldInfoProvider.async(AsyncWorldInfoProvider.java:54)
+[18:20:27] [spark-worker-0-5/WARN]: 	at spark-1.10.34-bukkit.jar//me.lucko.spark.common.platform.world.AsyncWorldInfoProvider.pollCounts(AsyncWorldInfoProvider.java:76)
+[18:20:27] [Server thread/INFO]: [Essentials] Disabling Essentials v2.20.1
+[18:20:27] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[18:20:27] [spark-worker-0-5/WARN]: 	at spark-1.10.34-bukkit.jar//me.lucko.spark.common.platform.world.AsyncWorldInfoProvider.getCounts(AsyncWorldInfoProvider.java:84)
+[18:20:27] [spark-worker-0-5/WARN]: 	at spark-1.10.34-bukkit.jar//me.lucko.spark.common.sampler.window.WindowStatisticsCollector.measure(WindowStatisticsCollector.java:185)
+[18:20:27] [spark-worker-0-5/WARN]: 	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+[18:20:27] [spark-worker-0-5/WARN]: 	at spark-1.10.34-bukkit.jar//me.lucko.spark.common.sampler.window.WindowStatisticsCollector.measureNow(WindowStatisticsCollector.java:123)
+[18:20:27] [spark-worker-0-5/WARN]: 	at spark-1.10.34-bukkit.jar//me.lucko.spark.common.sampler.java.JavaSampler.stop(JavaSampler.java:111)
+[18:20:27] [spark-worker-0-5/WARN]: 	at spark-1.10.34-bukkit.jar//me.lucko.spark.common.sampler.java.JavaSampler.run(JavaSampler.java:134)
+[18:20:27] [spark-worker-0-5/WARN]: 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+[18:20:27] [spark-worker-0-5/WARN]: 	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+[18:20:27] [spark-worker-0-5/WARN]: 	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+[18:20:27] [spark-worker-0-5/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[18:20:27] [spark-worker-0-5/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[18:20:27] [spark-worker-0-5/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[18:20:27] [Server thread/INFO]: [Skript] Disabling Skript v2.7.1
+[18:20:27] [Server thread/INFO]: [GriefPrevention] Disabling GriefPrevention v16.18.1
+[18:20:27] [Server thread/INFO]: [GriefPrevention] GriefPrevention disabled.
+[18:20:27] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.12
+[18:20:27] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.9+5934e49
+[18:20:27] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[18:20:27] [Server thread/INFO]: [VoidGen] Disabling VoidGen v2.2.1
+[18:20:27] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.8.2-SNAPSHOT-593;0566bd3
+[18:20:27] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[18:20:27] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[18:20:27] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.106
+[18:20:27] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[18:20:27] [Server thread/INFO]: [LuckPerms] Closing storage...
+[18:20:27] [Server thread/INFO]: [LuckPerms] Goodbye!
+[18:20:27] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.8.1
+[18:20:27] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[18:20:27] [Server thread/INFO]: Saving players
+[18:20:27] [Server thread/INFO]: zenith421 lost connection: Server closed
+[18:20:27] [Server thread/INFO]: zenith421 left the game
+[18:20:27] [Server thread/INFO]: Saving worlds
+[18:20:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18:20:27] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[18:20:27] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[18:20:27] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[18:20:27] [Server thread/INFO]: [ChunkHolderManager] Saved 126 block chunks, 37 entity chunks, 0 poi chunks in world 'world' in 0.12s
+[18:20:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:20:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[18:20:27] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[18:20:27] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[18:20:27] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[18:20:27] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 7 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
+[18:20:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:20:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[18:20:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[18:20:28] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[18:20:28] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[18:20:28] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.02s
+[18:20:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:20:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[survival]'/minecraft:survival
+[18:20:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'survival'
+[18:20:28] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'survival'
+[18:20:28] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'survival'
+[18:20:30] [Server thread/INFO]: [ChunkHolderManager] Saved 373 block chunks, 287 entity chunks, 0 poi chunks in world 'survival' in 2.34s
+[18:20:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (survival): All chunks are saved
+[18:20:30] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[18:20:30] [Server thread/INFO]: Flushing Chunk IO
+[18:20:30] [Server thread/INFO]: Closing Thread Pool
+[18:20:30] [Server thread/INFO]: Closing Server

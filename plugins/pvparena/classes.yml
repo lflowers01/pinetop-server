@@ -1,0 +1,46 @@
+classes:
+  Pyro:
+    armor:
+    - type: LEATHER_HELMET
+    - type: LEATHER_CHESTPLATE
+    - type: LEATHER_LEGGINGS
+    - type: LEATHER_BOOTS
+    items:
+    - type: FLINT_AND_STEEL
+    - type: TNT
+    - type: TNT
+    - type: TNT
+    offhand:
+    - type: AIR
+  Ranger:
+    armor:
+    - type: LEATHER_HELMET
+    - type: LEATHER_CHESTPLATE
+    - type: LEATHER_LEGGINGS
+    - type: LEATHER_BOOTS
+    items:
+    - type: BOW
+    - type: ARROW
+      amount: 64
+    offhand:
+    - type: AIR
+  Swordsman:
+    armor:
+    - type: LEATHER_HELMET
+    - type: LEATHER_CHESTPLATE
+    - type: LEATHER_LEGGINGS
+    - type: LEATHER_BOOTS
+    items:
+    - type: DIAMOND_SWORD
+    offhand:
+    - type: AIR
+  Tank:
+    armor:
+    - type: DIAMOND_HELMET
+    - type: DIAMOND_CHESTPLATE
+    - type: DIAMOND_LEGGINGS
+    - type: DIAMOND_BOOTS
+    items:
+    - type: STONE_SWORD
+    offhand:
+    - type: AIR

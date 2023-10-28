@@ -1,0 +1,7 @@
+command: discord
+permission: custom.help
+Title: discord
+Author: PineTop
+pages:
+  "1":
+    - "discord link"

@@ -4,7 +4,14 @@
 Language-File: en.yml
 
 Settings:
+  Logger:
+    Enabled: true # Log all things rtp related to the log.log file
+    LogToConsole: false
+    Format: yyyy-MM-dd HH:mm:ss
   Respect:
+    MinePlots: false
+    FactionsBridge: false
+    CrashClaim: false
     # # Respect WorldGuard areas (https://dev.bukkit.org/projects/worldguard)
     WorldGuard: false
     # # Respect GriefPrevention areas (https://www.spigotmc.org/resources/griefprevention.1884/)

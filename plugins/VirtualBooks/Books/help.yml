@@ -1,0 +1,29 @@
+command: help
+permission: custom.help
+Title: Help
+Author: PineTop
+pages:
+  "1":
+    - "HELP!"
+    - "Teleport commands ~"
+    - "/rtp /wild"
+    - "/tpa"
+    - "/tpaccept"
+    - "/tpacancel"
+    - "/sethome"
+    - "/home"
+    - "/hub"
+    - "Economy commands ~"
+    - "/pay"
+    - "/trade"
+    - "/bal /balance"
+    - "/baltop /balancetop"
+  "2":
+    - "Social commands ~"
+    - "/msg"
+    - "/nick"
+    - "Other commands ~"
+    - "/claim"
+    - "/rules"
+    - "/help"
+    - "/discord"

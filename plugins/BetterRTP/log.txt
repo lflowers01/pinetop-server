@@ -1,0 +1,22 @@
+2023-10-25 17:53:19 [INFO]: Loading Overrides...
+2023-10-25 17:53:19 [INFO]: Loading World Types...
+2023-10-25 17:53:19 [INFO]: - World Type for 'world' set to 'NORMAL'
+2023-10-25 17:53:19 [INFO]: - World Type for 'world_nether' set to 'NETHER'
+2023-10-25 17:53:19 [INFO]: - World Type for 'world_the_end' set to 'NORMAL'
+2023-10-25 17:53:19 [INFO]: Loading Defaults...
+2023-10-25 17:53:19 [INFO]: Loading Custom Worlds...
+2023-10-25 17:53:19 [INFO]: [WARN] - Custom World 'custom_world_1' was not registered because world does NOT exist
+2023-10-25 17:53:19 [INFO]: [WARN] - Custom World 'other_custom_world' was not registered because world does NOT exist
+2023-10-25 17:53:20 [INFO]: Database PLAYERS:Players configured and loaded!
+2023-10-25 17:53:20 [INFO]: Database QUEUE:Queue configured and loaded!
+2023-10-25 17:53:20 [INFO]: Database CHUNK_DATA:ChunkData configured and loaded!
+2023-10-25 17:53:21 [INFO]: Attempting to queue up some more safe locations...
+2023-10-25 17:55:38 [INFO]: Max attempts to create a Queue reached for default_world (amount: 0)
+2023-10-25 17:55:39 [INFO]: Queueing paused, max queue limit reached!
+2023-10-25 18:06:17 [WARNING]: Seems like the world `survival` does not have a `WorldType` declared. Please add/fix this in the config.yml file! This world will be treated as an overworld! If this world is a nether world, configure it to NETHER (example: `- survival: NETHER`
+2023-10-25 18:06:19 [INFO]: -Removed a queue Location{world=CraftWorld{name=survival},x=-776.5,y=159.0,z=189.5,pitch=19.573446,yaw=-145.40402}
+2023-10-25 18:16:02 [INFO]: -Removed a queue Location{world=CraftWorld{name=survival},x=887.5,y=63.0,z=-982.5,pitch=22.733734,yaw=-81.1495}
+2023-10-25 18:17:03 [INFO]: -Removed a queue Location{world=CraftWorld{name=survival},x=-985.5,y=75.0,z=-694.5,pitch=-11.672851,yaw=126.967575}
+2023-10-25 18:17:23 [INFO]: -Removed a queue Location{world=CraftWorld{name=survival},x=-963.5,y=84.0,z=-886.5,pitch=7.5437417,yaw=70.7948}
+2023-10-25 18:17:40 [INFO]: -Removed a queue Location{world=CraftWorld{name=survival},x=-497.5,y=88.0,z=-845.5,pitch=37.1585,yaw=-42.446228}
+2023-10-25 18:20:27 [INFO]: Disabling BetterRTP v3.6.11

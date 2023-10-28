@@ -1,0 +1,333 @@
+flagColors:
+  red: WHITE
+  blue: BLACK
+chat:
+  colorNick: true
+  defaultTeam: false
+  enabled: true
+  onlyPrivate: false
+  toGlobal: none
+cmds:
+  defaultjoin: true
+  whitelist: []
+damage:
+  armor: true
+  bloodParticles: true
+  fromOutsiders: false
+  spawncamp: 1
+  weapons: true
+general:
+  classspawn: false
+  classSwitchAfterRespawn: false
+  customReturnsGear: false
+  enabled: true
+  gm: 0
+  leavedeath: false
+  lang: none
+  owner: server
+  regionclearexceptions: []
+  quickspawn: true
+  prefix: PVP Arena
+  showRemainingLives: true
+  smartspawn: false
+  time: -1
+  type: none
+  wand: STICK
+goal:
+  teamlives:
+    tlives: 10
+  livesPerPlayer: false
+  endCountDown: 5
+items:
+  excludeFromDrops: []
+  onlyDrops: []
+  keepOnRespawn: []
+  keepAllOnRespawn: false
+  minplayers: 2
+  random: true
+  rewards: []
+  takeOutOfGame: []
+join:
+  range: 0
+  forceregionjoin: false
+  onlyifhasplayed: false
+block:
+  blacklist: []
+  whitelist: []
+goals:
+- TeamLives
+mods:
+- BattlefieldJoin
+- StandardSpectate
+- StandardLounge
+msg:
+  lounge: Welcome to the arena lounge! Hit a class sign and then the iron block to
+    flag yourself as ready!
+  playerjoined: '%1% joined the Arena!'
+  playerjoinedteam: '%1% joined team %2%!'
+  starting: Arena is starting! Type &e/pa %1% to join!
+  youjoined: You have joined the FreeForAll Arena!
+  youjoinedteam: You have joined team %1%!
+perms:
+  alwaysJoinInBattle: false
+  explicitArenaNeeded: false
+  explicitClassNeeded: false
+  fly: false
+  loungeinteract: false
+  joinInBattle: false
+  joinWithScoreboard: true
+  teamkill: true
+  specTalk: true
+  spectatorinteract: false
+player:
+  autoIgniteTNT: false
+  clearInventory: NONE
+  collision: true
+  dropsEXP: false
+  dropsInventory: false
+  exhaustion: 0.0
+  hungerforkill: 0
+  foodLevel: 20
+  health: -1
+  healforkill: false
+  hunger: true
+  itemsonkill: []
+  mayChangeArmor: true
+  maxhealth: -1
+  preventDeath: true
+  refillCustomInventory: true
+  refillInventory: true
+  refillforkill: false
+  removearrows: false
+  saturation: 20
+  quickloot: false
+protection:
+  enabled: true
+  punish: false
+  spawn: 0
+ready:
+  autoClass: none
+  block: STRUCTURE_VOID
+  checkEachPlayer: false
+  checkEachTeam: true
+  enforceCountdown: false
+  minPlayers: 1
+  maxPlayers: 0
+  maxTeam: 0
+  neededRatio: 0.5
+time:
+  startCountDown: 10
+  regionTimer: 10
+  teleportProtect: 3
+  resetDelay: -1
+  warmupCountDown: 0
+  pvp: 0
+tp:
+  death: old
+  exit: old
+  lose: old
+  win: old
+  offsets: []
+uses:
+  classSignsDisplay: false
+  deathMessages: true
+  deathMessagesCustom: true
+  evenTeams: false
+  ingameClassSwitch: false
+  invisibilityfix: false
+  evilinvisibilityfix: false
+  overlapCheck: true
+  playerclasses: false
+  scoreboard: false
+  scoreboardrounddisplay: false
+  suicidepunish: false
+  teamrewards: false
+  teleportonkill: false
+  woolHead: false
+classitems:
+  Pyro:
+    armor:
+    - type: LEATHER_HELMET
+    - type: LEATHER_CHESTPLATE
+    - type: LEATHER_LEGGINGS
+    - type: LEATHER_BOOTS
+    items:
+    - type: FLINT_AND_STEEL
+    - type: TNT
+    - type: TNT
+    - type: TNT
+    offhand:
+    - type: AIR
+  Ranger:
+    armor:
+    - type: IRON_BOOTS
+    - type: GOLDEN_LEGGINGS
+    - type: IRON_CHESTPLATE
+    - type: GOLDEN_HELMET
+    items:
+    - type: BOW
+    - type: ARROW
+      amount: 64
+    - type: TIPPED_ARROW
+      amount: 8
+      meta:
+        potion-type: minecraft:strong_harming
+    - type: COOKED_PORKCHOP
+      amount: 12
+    - type: LIGHT_GRAY_WOOL
+      amount: 64
+    offhand:
+    - type: AIR
+      amount: 0
+  Swordsman:
+    armor:
+    - type: LEATHER_HELMET
+    - type: LEATHER_CHESTPLATE
+    - type: LEATHER_LEGGINGS
+    - type: LEATHER_BOOTS
+    items:
+    - type: DIAMOND_SWORD
+    offhand:
+    - type: AIR
+  Tank:
+    armor:
+    - type: DIAMOND_BOOTS
+    - type: DIAMOND_LEGGINGS
+    - type: DIAMOND_CHESTPLATE
+    - type: DIAMOND_HELMET
+    items:
+    - type: SNOWBALL
+      amount: 16
+    - type: GOLDEN_APPLE
+      amount: 10
+    - type: POTION
+      meta:
+        potion-type: minecraft:strong_swiftness
+    - type: POTION
+      meta:
+        potion-type: minecraft:healing
+    - type: OAK_PLANKS
+      amount: 16
+    - type: LIGHT_GRAY_WOOL
+      amount: 64
+    offhand:
+    - type: AIR
+      amount: 0
+  Lumberjack:
+    items:
+    - type: DIAMOND_AXE
+    - type: FISHING_ROD
+    - type: COOKED_BEEF
+      amount: 8
+    - type: LIGHT_GRAY_WOOL
+      amount: 64
+    offhand:
+    - type: AIR
+      amount: 0
+    armor:
+    - type: IRON_LEGGINGS
+    - type: IRON_CHESTPLATE
+    - type: LEATHER_HELMET
+  Knight:
+    items:
+    - type: IRON_SWORD
+    - type: COOKED_RABBIT
+      amount: 6
+    - type: LIGHT_GRAY_WOOL
+      amount: 64
+    offhand:
+    - type: SHIELD
+    armor:
+    - type: IRON_LEGGINGS
+    - type: IRON_CHESTPLATE
+    - type: CHAINMAIL_HELMET
+  Turtle:
+    items:
+    - type: TRIDENT
+    - type: TRIDENT
+    - type: TRIDENT
+    - type: LINGERING_POTION
+      meta:
+        potion-type: minecraft:turtle_master
+    - type: LINGERING_POTION
+      meta:
+        potion-type: minecraft:turtle_master
+    - type: LINGERING_POTION
+      meta:
+        potion-type: minecraft:turtle_master
+    - type: POTION
+      meta:
+        potion-type: minecraft:regeneration
+    - type: CARROT
+      amount: 10
+    - type: LIGHT_GRAY_WOOL
+      amount: 64
+    offhand:
+    - type: AIR
+      amount: 0
+    armor:
+    - type: LEATHER_LEGGINGS
+    - type: LEATHER_CHESTPLATE
+    - type: TURTLE_HELMET
+  Pyromancer:
+    items:
+    - type: FIRE_CHARGE
+      amount: 64
+    - type: FLINT_AND_STEEL
+    - type: STICK
+      meta:
+        display-name: '{"text":"Fire Wand","color":"red","bold":true}'
+        enchants:
+          FIRE_ASPECT: 3
+          ARROW_FIRE: 3
+          KNOCKBACK: 2
+        ItemFlags:
+        - HIDE_ENCHANTS
+    - type: POTION
+      meta:
+        potion-type: minecraft:long_fire_resistance
+    - type: ROTTEN_FLESH
+      amount: 8
+    - type: LIGHT_GRAY_WOOL
+      amount: 64
+    offhand:
+    - type: AIR
+      amount: 0
+    armor:
+    - type: LEATHER_BOOTS
+    - type: CHAINMAIL_LEGGINGS
+    - type: LEATHER_CHESTPLATE
+    - type: CHAINMAIL_HELMET
+time_intervals:
+  '1': 1..
+  '2': 2..
+  '3': 3..
+  '4': 4..
+  '5': 5..
+  '10': 10 %s
+  '20': 20 %s
+  '30': 30 %s
+  '60': 60 %s
+  '120': 2 %m
+  '180': 3 %m
+  '240': 4 %m
+  '300': 5 %m
+  '600': 10 %m
+  '1200': 20 %m
+  '1800': 30 %m
+  '2400': 40 %m
+  '3000': 50 %m
+  '3600': 60 %m
+configversion: 1.3.3.217
+teams:
+  red: RED
+  blue: BLUE
+spawns:
+  redspawn: world,339,-58,-180,0.0,0.0
+  bluespawn: world,333,-58,-134,-180.0,0.0
+  redlounge: world,310,-60,-64,125.37335205078125,38.69948196411133
+  bluelounge: world,344,-60,-60,172.6272735595703,55.499755859375
+  exit: world,206,-59,-141,90.0,0.0
+  spectator: world,335,-45,-158,-118.94847106933594,9.30014419555664
+classchests:
+  Lumberjack: world:339,-60,-53
